@@ -39,16 +39,28 @@ public class JuggleSpawner : MonoBehaviour
             spawner_Transform.Translate(new Vector2(100, 0));
             yield return new WaitForSeconds(2.0f);
             
-            switch (Random.Range(0, 3))
+            switch (Random.Range(0, 7))
             {
                 case 0:
-                    Spawn(juggling_Pin_Blue);
+                    Spawn("juggling_Pin_Blue");
                     break;
                 case 1:
-                    Spawn(juggling_Pin_Green);
+                    Spawn("juggling_Pin_Green");
                     break;
                 case 2:
-                    Spawn(juggling_Pin_Red);
+                    Spawn("juggling_Pin_Red");
+                    break;
+                case 3:
+                    Spawn(All_Items.Instance.ItemList[3]);
+                    break;
+                case 4:
+                    Spawn(All_Items.Instance.ItemList[4]);
+                    break;
+                case 5:
+                    Spawn(All_Items.Instance.ItemList[5]);
+                    break;
+                case 6:
+                    Spawn(All_Items.Instance.ItemList[6]);
                     break;
                 default:
                     break;
@@ -69,8 +81,18 @@ public class JuggleSpawner : MonoBehaviour
     /// <summary>
     /// The function Spawn a specific item on Call
     /// </summary>
-    private void Spawn(GameObject Object)
+    /// <param name="Object"></param>
+    /// <param name="GravityCoff"></param>
+    private void Spawn(string ObjectName)
     {
-        Instantiate(Object, spawner_Transform.position, Quaternion.identity, a_Transform);
+        Juggling_Item jItem = All_Items.Instance.FindItemByName(ObjectName);
+        GameObject go = Instantiate(jItem.Obj, spawner_Transform.position, Quaternion.identity, a_Transform);
+        go.GetComponent<Juggling_Item>().Gravity = jItem.Gravity;
+    }
+
+    private void Spawn(Juggling_Item jItem)
+    {
+        GameObject go = Instantiate(jItem.Obj, spawner_Transform.position, Quaternion.identity, a_Transform);
+        go.GetComponent<Juggling_Item>().Gravity = jItem.Gravity;
     }
 }
