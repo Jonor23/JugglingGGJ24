@@ -17,7 +17,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="JugglingPin_SW" ID="{E99E0254-5C1E-4716-9C62-BC6C933C45C3}"/>
+						<CurrentSwitchRef Name="RealChicken_SW" ID="{B5190900-E8E0-4983-95BD-34F5DB6340C0}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
