@@ -7,6 +7,54 @@
 					<PropertyList>
 						<Property Name="LfoFrequency" Type="Real64" Value="4.22"/>
 					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{88C1A39B-B4EA-4498-A0C4-F855FF4960E5}" ShortID="48252861">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="LfoFrequency"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="LFO_Random" ID="{0DDDA0B8-FCF4-4807-88D1-6D5FEE141072}" WorkUnitID="{5E1B0F5A-E9D9-444A-BF9F-6383A8D43EA7}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{5933D4CA-5C4B-4004-904D-F7E58D5B33CC}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="5"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>1</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>42.28337</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</ModulatorLfo>
+				<ModulatorLfo Name="LFO_Random" ID="{0DDDA0B8-FCF4-4807-88D1-6D5FEE141072}" ShortID="380253410">
+					<PropertyList>
+						<Property Name="LfoAttack" Type="Real64" Value="0.63"/>
+						<Property Name="LfoDepth" Type="Real64" Value="80.5"/>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.06"/>
+						<Property Name="LfoSmoothing" Type="Real64" Value="15"/>
+						<Property Name="LfoWaveform" Type="int32" Value="5"/>
+					</PropertyList>
 				</ModulatorLfo>
 			</ChildrenList>
 		</WorkUnit>

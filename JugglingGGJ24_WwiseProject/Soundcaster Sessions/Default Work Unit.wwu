@@ -17,7 +17,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Frog_SW" ID="{011E4F99-2E74-4AEC-BD9D-6EF505C10216}"/>
+						<CurrentSwitchRef Name="Triangle_SW" ID="{329D8F85-9EE4-46A2-8586-783144DDE15D}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
