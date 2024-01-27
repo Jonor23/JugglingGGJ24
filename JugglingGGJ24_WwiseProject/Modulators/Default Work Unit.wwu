@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5E1B0F5A-E9D9-444A-BF9F-6383A8D43EA7}" SchemaVersion="110">
 	<Modulators>
-		<WorkUnit Name="Default Work Unit" ID="{5E1B0F5A-E9D9-444A-BF9F-6383A8D43EA7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5E1B0F5A-E9D9-444A-BF9F-6383A8D43EA7}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorLfo Name="TriangleLFO" ID="{17805BE1-08EC-4DD8-A230-AEE7DAF194DF}" ShortID="217637712">
+					<PropertyList>
+						<Property Name="LfoFrequency" Type="Real64" Value="4.22"/>
+					</PropertyList>
+				</ModulatorLfo>
+			</ChildrenList>
+		</WorkUnit>
 	</Modulators>
 </WwiseDocument>

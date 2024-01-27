@@ -23,17 +23,19 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="JugglingPins" ID="{C4B5A41D-D36C-4D40-A1E3-07E15F836A10}" ShortID="236133543">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
-										</Reference>
-									</ReferenceList>
-								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Base_Hand_Slap" ID="{723C1343-2957-4DDB-8F19-5E0E3DE9FF1A}" ShortID="585719319">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>11</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>27</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
@@ -243,6 +245,376 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<SwitchContainer Name="Object_SwitchContainer" ID="{CCC8C5AD-C032-4522-8A51-396082B1DD83}" ShortID="72120804">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="JugglingPin_SW" ID="{E99E0254-5C1E-4716-9C62-BC6C933C45C3}" WorkUnitID="{3DC2959E-2D7F-4112-B711-FAD40B2916A0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Object_SwitchGroup" ID="{F4C99C01-31E7-44C7-A0FE-37B19B634758}" WorkUnitID="{3DC2959E-2D7F-4112-B711-FAD40B2916A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="JugglingPins" ID="{C4B5A41D-D36C-4D40-A1E3-07E15F836A10}" ShortID="236133543">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>0.1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="JugglingPin-001" ID="{1297D5BB-5E5D-4333-A33C-F6895A339536}" ShortID="1034960926">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="JugglingPin-001" ID="{441755B3-F6A4-4CB5-A491-AD28D3BB0FAB}">
+															<Language>SFX</Language>
+															<AudioFile>JugglingPin-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="994505982"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="JugglingPin-001" ID="{441755B3-F6A4-4CB5-A491-AD28D3BB0FAB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="JugglingPin-002" ID="{B761153C-EE06-4355-88FC-E2B66160F15A}" ShortID="43105750">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="JugglingPin-002" ID="{A36FE317-3E7C-4231-BCA9-BFAFEF368257}">
+															<Language>SFX</Language>
+															<AudioFile>JugglingPin-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="410989016"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="JugglingPin-002" ID="{A36FE317-3E7C-4231-BCA9-BFAFEF368257}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="JugglingPin-003" ID="{0B3C7D8E-355A-439C-B4DA-8E63F676A875}" ShortID="267600281">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="JugglingPin-003" ID="{46D921E3-EE2A-44B0-92D2-B7F408E6759E}">
+															<Language>SFX</Language>
+															<AudioFile>JugglingPin-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="404629888"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="JugglingPin-003" ID="{46D921E3-EE2A-44B0-92D2-B7F408E6759E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="JugglingPin-004" ID="{1E058A10-F132-4A98-BF40-09AC1FBD577E}" ShortID="780587753">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="JugglingPin-004" ID="{DDC40191-42AA-4F2F-959E-851449F1CC0E}">
+															<Language>SFX</Language>
+															<AudioFile>JugglingPin-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="53662448"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="JugglingPin-004" ID="{DDC40191-42AA-4F2F-959E-851449F1CC0E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="JugglingPin-005" ID="{D461AB59-6214-4FBE-A451-A3626DA6EF93}" ShortID="565472244">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="JugglingPin-005" ID="{544C3CD6-BCA5-4F61-92FF-40B3545E9F36}">
+															<Language>SFX</Language>
+															<AudioFile>JugglingPin-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="28902410"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="JugglingPin-005" ID="{544C3CD6-BCA5-4F61-92FF-40B3545E9F36}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="JugglingPin-006" ID="{E5C56CA6-2754-408C-8C56-6837A92C810A}" ShortID="344046971">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="JugglingPin-006" ID="{D5EA6AD2-3AE0-4800-99A9-68A07BAD5C6F}">
+															<Language>SFX</Language>
+															<AudioFile>JugglingPin-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="847263843"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="JugglingPin-006" ID="{D5EA6AD2-3AE0-4800-99A9-68A07BAD5C6F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Triangle" ID="{48B8397D-1ACC-4A58-BE7E-4469168E062C}" ShortID="405858775">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>0.1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+													<ObjectRef Name="Triangle_PitchShift" ID="{F8EBB073-F233-41C3-B394-A9D3D8F0EA35}" WorkUnitID="{82F84788-3E2A-4D97-9A7A-1CC6A653DB06}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Triangle-001" ID="{F53251C3-6265-419C-85AE-9F2EDA413F89}" ShortID="420614027">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Triangle-001" ID="{D6E740CF-9A28-4031-9A87-57455F6E9D4E}">
+															<Language>SFX</Language>
+															<AudioFile>Triangle-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="32544820"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Triangle-001" ID="{D6E740CF-9A28-4031-9A87-57455F6E9D4E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Triangle-002" ID="{B2268F60-3B7F-43BE-B060-A0D5802BEE6C}" ShortID="268360045">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Triangle-002" ID="{7A673356-5938-4D3F-BFED-6FD455C23D28}">
+															<Language>SFX</Language>
+															<AudioFile>Triangle-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="203339077"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Triangle-002" ID="{7A673356-5938-4D3F-BFED-6FD455C23D28}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Triangle-003" ID="{0F9F2A5B-E39D-4551-B270-70D7F27349C5}" ShortID="407229032">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Triangle-003" ID="{A761FC2A-577C-49DA-B908-383558BD518E}">
+															<Language>SFX</Language>
+															<AudioFile>Triangle-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="739785116"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Triangle-003" ID="{A761FC2A-577C-49DA-B908-383558BD518E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Triangle-004" ID="{FC0EEC59-5CFD-4B0E-B647-AB8040C002AF}" ShortID="460271030">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Triangle-004" ID="{1B578D88-2D8B-411D-BADF-50930044F605}">
+															<Language>SFX</Language>
+															<AudioFile>Triangle-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="655743071"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Triangle-004" ID="{1B578D88-2D8B-411D-BADF-50930044F605}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Triangle-005" ID="{625F3E3F-2CBA-44E2-9F11-B7B641233B18}" ShortID="100860531">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Triangle-005" ID="{EEFD16FB-543A-4DE4-A399-937F739FABB6}">
+															<Language>SFX</Language>
+															<AudioFile>Triangle-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="78299451"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Triangle-005" ID="{EEFD16FB-543A-4DE4-A399-937F739FABB6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Triangle-006" ID="{EFA427A3-48C8-4E44-A331-F54951067632}" ShortID="370643124">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Triangle-006" ID="{09EA57DC-28FD-4997-A878-4C2D7C7A818C}">
+															<Language>SFX</Language>
+															<AudioFile>Triangle-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="82960053"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Triangle-006" ID="{09EA57DC-28FD-4997-A878-4C2D7C7A818C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Triangle-007" ID="{9B9BD77A-0D50-4461-8665-3C9414BE56C5}" ShortID="821443133">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Triangle-007" ID="{6F2DFB42-B772-48EE-B6A0-07128057B6A4}">
+															<Language>SFX</Language>
+															<AudioFile>Triangle-007.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1058377727"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Triangle-007" ID="{6F2DFB42-B772-48EE-B6A0-07128057B6A4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="JugglingPins" ID="{C4B5A41D-D36C-4D40-A1E3-07E15F836A10}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Triangle" ID="{48B8397D-1ACC-4A58-BE7E-4469168E062C}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="JugglingPin_SW" ID="{E99E0254-5C1E-4716-9C62-BC6C933C45C3}"/>
+												<ItemList>
+													<ItemRef Name="JugglingPins" ID="{C4B5A41D-D36C-4D40-A1E3-07E15F836A10}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Triangle_SW" ID="{329D8F85-9EE4-46A2-8586-783144DDE15D}"/>
+												<ItemList>
+													<ItemRef Name="Triangle" ID="{48B8397D-1ACC-4A58-BE7E-4469168E062C}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
 							</ChildrenList>
 						</BlendContainer>
 					</ChildrenList>

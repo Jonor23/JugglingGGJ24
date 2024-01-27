@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3DC2959E-2D7F-4112-B711-FAD40B2916A0}" SchemaVersion="110">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{3DC2959E-2D7F-4112-B711-FAD40B2916A0}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3DC2959E-2D7F-4112-B711-FAD40B2916A0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Object_SwitchGroup" ID="{F4C99C01-31E7-44C7-A0FE-37B19B634758}">
+					<ChildrenList>
+						<Switch Name="JugglingPin_SW" ID="{E99E0254-5C1E-4716-9C62-BC6C933C45C3}"/>
+						<Switch Name="Triangle_SW" ID="{329D8F85-9EE4-46A2-8586-783144DDE15D}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

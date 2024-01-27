@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{82F84788-3E2A-4D97-9A7A-1CC6A653DB06}" SchemaVersion="110">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{82F84788-3E2A-4D97-9A7A-1CC6A653DB06}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{82F84788-3E2A-4D97-9A7A-1CC6A653DB06}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Triangle_PitchShift" ID="{F8EBB073-F233-41C3-B394-A9D3D8F0EA35}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{5D172F85-0095-4D66-86F0-0DE2122882EC}" ShortID="684142793">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="TriangleLFO" ID="{17805BE1-08EC-4DD8-A230-AEE7DAF194DF}" WorkUnitID="{5E1B0F5A-E9D9-444A-BF9F-6383A8D43EA7}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{A718279C-C062-43BD-A5AE-D4E8452222B1}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>315.78947</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>
