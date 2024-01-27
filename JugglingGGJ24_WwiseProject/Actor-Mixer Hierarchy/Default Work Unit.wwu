@@ -506,6 +506,13 @@
 														<Value>0.2</Value>
 													</ValueList>
 												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{8006C602-3531-42D1-B6A3-0D1986E61302}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
@@ -521,6 +528,11 @@
 													</ModifierList>
 												</Property>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1864,6 +1876,13 @@
 										</RandomSequenceContainer>
 										<BlendContainer Name="Bird" ID="{FD29B570-EDF0-44FB-A48D-75EE4AE30894}" ShortID="859013619">
 											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{CBBD2E3E-DB56-4B59-8C72-D7BEC8F7B112}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -2247,12 +2266,40 @@
 										</BlendContainer>
 										<RandomSequenceContainer Name="JugglingPin" ID="{45398752-612E-4674-9B08-D4CD62957533}" ShortID="849433995">
 											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>13</Value>
+													</ValueList>
+												</Property>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>0.2</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Lowpass" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{12D3529D-0299-45AD-9334-CD9547A31BB4}"/>
 														</ModifierInfo>
 													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{90EB81FD-67F9-4F98-AF0A-7334DEAD93B8}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="429"/>
+																	<Property Name="Min" Type="Real64" Value="-51"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -2434,6 +2481,12 @@
 												<SwitchRef Name="RubberChicken_SW" ID="{16B7630A-5D45-425C-B52B-366AE9EF9FF5}"/>
 												<ItemList>
 													<ItemRef Name="RubberChicken" ID="{021E6FEF-03EA-4ED0-9CD7-2E5E8209FFE5}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="JugglingPin_SW" ID="{E99E0254-5C1E-4716-9C62-BC6C933C45C3}"/>
+												<ItemList>
+													<ItemRef Name="JugglingPin" ID="{45398752-612E-4674-9B08-D4CD62957533}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
