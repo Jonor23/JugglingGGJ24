@@ -67,9 +67,10 @@ public class Juggler : MonoBehaviour
         }
 
         armBaseRotation -= (180 - armEndRotation * direction) * 0.5f - 90;
+        armEndRotation = armBaseRotation - armEndRotation * direction;
 
-        End.rotation = Quaternion.Euler(0, 0, armBaseRotation - armEndRotation * direction);
-        Base.rotation = Quaternion.Euler(0, 0, armBaseRotation);
+        End.rotation = Quaternion.Slerp(End.rotation, Quaternion.Euler(0, 0, armEndRotation), 0.01f);
+        Base.rotation = Quaternion.Slerp(Base.rotation, Quaternion.Euler(0, 0, armBaseRotation), 0.01f);
         Hand.rotation = Quaternion.Euler(0, 0, 0);
     }
 }
