@@ -1060,11 +1060,46 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<BlendContainer Name="RealChicken" ID="{58C5082A-189C-4685-A0C1-20D1EB517458}" ShortID="992552417">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="ChickenSquawk" ID="{48C778C5-D6CD-4279-842E-D48FE0F78A6E}" ShortID="438610170">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="ChickenFlap" ID="{0CC0196B-2E20-4BC4-81C6-EE21C3780361}" ShortID="944376152">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
 												<ItemRef Name="JugglingPins" ID="{C4B5A41D-D36C-4D40-A1E3-07E15F836A10}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="RealChicken" ID="{58C5082A-189C-4685-A0C1-20D1EB517458}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Triangle" ID="{48B8397D-1ACC-4A58-BE7E-4469168E062C}"/>

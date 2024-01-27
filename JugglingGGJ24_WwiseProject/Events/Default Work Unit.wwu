@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="HandCollision" ID="{A3D1F555-6CF9-4D05-BBB6-40659231A676}">
+					<ChildrenList>
+						<Action Name="" ID="{A57EBA67-5CCF-4DF4-8BD6-927E38BAAFD2}" ShortID="595696631">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Base_Hand_Slap" ID="{723C1343-2957-4DDB-8F19-5E0E3DE9FF1A}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B6318A05-4D81-4E59-BFCF-8CFBCCC97B77}" ShortID="217532401">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Object_SwitchContainer" ID="{CCC8C5AD-C032-4522-8A51-396082B1DD83}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
