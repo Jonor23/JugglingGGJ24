@@ -264,6 +264,13 @@
 								<SwitchContainer Name="Object_SwitchContainer" ID="{CCC8C5AD-C032-4522-8A51-396082B1DD83}" ShortID="72120804">
 									<PropertyList>
 										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CAEC4D07-E375-43CC-AC84-755C87D0BD7D}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
 												<Value>2</Value>
@@ -1237,6 +1244,20 @@
 											</ReferenceList>
 											<ChildrenList>
 												<RandomSequenceContainer Name="ChickenSquawk" ID="{48C778C5-D6CD-4279-842E-D48FE0F78A6E}" ShortID="438610170">
+													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>0.1</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{671D76A7-E777-48F4-94A2-5EADC3477B03}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
@@ -1426,10 +1447,20 @@
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="ChickenFlap" ID="{0CC0196B-2E20-4BC4-81C6-EE21C3780361}" ShortID="944376152">
 													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>0.1</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Lowpass" Type="int16">
 															<ValueList>
 																<Value>31</Value>
 															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{1D118287-71BE-476A-9B3D-B49B595D7270}"/>
+																</ModifierInfo>
+															</ModifierList>
 														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
@@ -2214,11 +2245,167 @@
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</BlendContainer>
+										<RandomSequenceContainer Name="JugglingPin" ID="{45398752-612E-4674-9B08-D4CD62957533}" ShortID="849433995">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{12D3529D-0299-45AD-9334-CD9547A31BB4}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="JugglingPin-001" ID="{2BFA3034-F63D-4774-BE9E-F4880810CF55}" ShortID="991598685">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="JugglingPin-001" ID="{91DA1915-8E6D-4DA5-A211-1AB3C767EEC6}">
+															<Language>SFX</Language>
+															<AudioFile>JugglingPin-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="994505982"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="JugglingPin-001" ID="{91DA1915-8E6D-4DA5-A211-1AB3C767EEC6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="JugglingPin-002" ID="{BE1265C6-0600-443E-A964-0035CEC86B4C}" ShortID="835454697">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="JugglingPin-002" ID="{9130A54C-BAFA-471D-95DA-74FDFE47C91A}">
+															<Language>SFX</Language>
+															<AudioFile>JugglingPin-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="405521649"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="JugglingPin-002" ID="{9130A54C-BAFA-471D-95DA-74FDFE47C91A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="JugglingPin-003" ID="{FB5423B2-C385-45E5-94C6-49C14888F845}" ShortID="2397995">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="JugglingPin-003" ID="{E25421D1-243A-45F3-A74A-8C43970A4632}">
+															<Language>SFX</Language>
+															<AudioFile>JugglingPin-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="404629888"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="JugglingPin-003" ID="{E25421D1-243A-45F3-A74A-8C43970A4632}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="JugglingPin-004" ID="{5E564B0C-7FF9-4B8F-85A6-2F9BC6B02473}" ShortID="454759537">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="JugglingPin-004" ID="{98C6841F-7E89-4A18-9CA0-938DD1F9D9F3}">
+															<Language>SFX</Language>
+															<AudioFile>JugglingPin-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="53662448"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="JugglingPin-004" ID="{98C6841F-7E89-4A18-9CA0-938DD1F9D9F3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="JugglingPin-005" ID="{F9747372-917D-4962-B18D-3D8D4E622B57}" ShortID="872756180">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="JugglingPin-005" ID="{45B124B2-65D2-48E3-AE1A-AAD678D26246}">
+															<Language>SFX</Language>
+															<AudioFile>JugglingPin-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="28902410"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="JugglingPin-005" ID="{45B124B2-65D2-48E3-AE1A-AAD678D26246}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="JugglingPin-006" ID="{02570D4A-4C8F-4FBB-BF70-9FEB9AED6F9A}" ShortID="247640352">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="JugglingPin-006" ID="{1A677F0A-C684-4298-9E1D-A1AACDED3A3A}">
+															<Language>SFX</Language>
+															<AudioFile>JugglingPin-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="847263843"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="JugglingPin-006" ID="{1A677F0A-C684-4298-9E1D-A1AACDED3A3A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
 												<ItemRef Name="RealChicken" ID="{58C5082A-189C-4685-A0C1-20D1EB517458}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="JugglingPin" ID="{45398752-612E-4674-9B08-D4CD62957533}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Bird" ID="{FD29B570-EDF0-44FB-A48D-75EE4AE30894}"/>
