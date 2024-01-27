@@ -2041,6 +2041,12 @@
 										</GroupingBehaviorList>
 										<GroupingList>
 											<Grouping>
+												<SwitchRef Name="RealChicken_SW" ID="{B5190900-E8E0-4983-95BD-34F5DB6340C0}"/>
+												<ItemList>
+													<ItemRef Name="RealChicken" ID="{58C5082A-189C-4685-A0C1-20D1EB517458}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
 												<SwitchRef Name="RubberChicken_SW" ID="{16B7630A-5D45-425C-B52B-366AE9EF9FF5}"/>
 												<ItemList>
 													<ItemRef Name="RubberChicken" ID="{021E6FEF-03EA-4ED0-9CD7-2E5E8209FFE5}"/>
@@ -2068,6 +2074,12 @@
 												<SwitchRef Name="Frog_SW" ID="{011E4F99-2E74-4AEC-BD9D-6EF505C10216}"/>
 												<ItemList>
 													<ItemRef Name="Frog" ID="{92982BC0-EDD1-45D9-B81B-53777C75F403}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Bird_SW" ID="{774012DF-4748-42FB-972E-F51CD150A7FE}"/>
+												<ItemList>
+													<ItemRef Name="Bird" ID="{FD29B570-EDF0-44FB-A48D-75EE4AE30894}"/>
 												</ItemList>
 											</Grouping>
 										</GroupingList>
