@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}" PersistMode="Standalone">
 			<ChildrenList>
-				<ActorMixer Name="JuggledObjects" ID="{D93D5B27-AD99-4A06-84A3-2B99079149E3}" ShortID="696732665">
+				<ActorMixer Name="Juggling" ID="{D93D5B27-AD99-4A06-84A3-2B99079149E3}" ShortID="696732665">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
@@ -32,6 +32,216 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
 										</Reference>
 									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Base_Hand_Slap" ID="{723C1343-2957-4DDB-8F19-5E0E3DE9FF1A}" ShortID="585719319">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="BaseHandSlap-001" ID="{065F1CED-3532-4EE2-826D-61A8183CEAB5}" ShortID="593087467">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BaseHandSlap-001" ID="{7D992980-E8B1-4F3C-8478-C641DEA7354F}">
+													<Language>SFX</Language>
+													<AudioFile>BaseHandSlap-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="964406803"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BaseHandSlap-001" ID="{7D992980-E8B1-4F3C-8478-C641DEA7354F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BaseHandSlap-002" ID="{E94E83D3-E75F-4066-B1DC-3AE9816D62CE}" ShortID="923912083">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BaseHandSlap-002" ID="{A3570CD9-8FE9-4C94-A0CB-DE9FE9C3F6B7}">
+													<Language>SFX</Language>
+													<AudioFile>BaseHandSlap-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="857767970"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BaseHandSlap-002" ID="{A3570CD9-8FE9-4C94-A0CB-DE9FE9C3F6B7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BaseHandSlap-003" ID="{94720A4B-27CD-4F0C-ADF2-4A1E0BFDE07D}" ShortID="85250525">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BaseHandSlap-003" ID="{3BEA5A66-8C6B-4248-B31E-EE16BCCE6D32}">
+													<Language>SFX</Language>
+													<AudioFile>BaseHandSlap-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="33260571"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BaseHandSlap-003" ID="{3BEA5A66-8C6B-4248-B31E-EE16BCCE6D32}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BaseHandSlap-004" ID="{55B33179-A94C-4626-87CF-0E2549B14745}" ShortID="497105363">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BaseHandSlap-004" ID="{761381EB-A6AE-494E-A53B-7CF19B8876DE}">
+													<Language>SFX</Language>
+													<AudioFile>BaseHandSlap-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="197378971"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BaseHandSlap-004" ID="{761381EB-A6AE-494E-A53B-7CF19B8876DE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BaseHandSlap-005" ID="{8D8E9027-3A73-4813-A287-5B0CEA274F9D}" ShortID="402343270">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BaseHandSlap-005" ID="{276DCBF0-622C-4EED-BE0E-D434910112E6}">
+													<Language>SFX</Language>
+													<AudioFile>BaseHandSlap-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="620354541"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BaseHandSlap-005" ID="{276DCBF0-622C-4EED-BE0E-D434910112E6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BaseHandSlap-006" ID="{ADE5EEA8-5A59-4D1A-871C-D829E24A45C3}" ShortID="636098140">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BaseHandSlap-006" ID="{45F83D7B-7B4A-4E24-91AC-1E81BBFF4D0D}">
+													<Language>SFX</Language>
+													<AudioFile>BaseHandSlap-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="692966761"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BaseHandSlap-006" ID="{45F83D7B-7B4A-4E24-91AC-1E81BBFF4D0D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BaseHandSlap-007" ID="{CEF4120E-97D7-4FCF-8379-5ABCBFC50FD0}" ShortID="266377603">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BaseHandSlap-007" ID="{A854381D-EE3D-4BBA-A243-E2827F1C7453}">
+													<Language>SFX</Language>
+													<AudioFile>BaseHandSlap-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="400500672"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BaseHandSlap-007" ID="{A854381D-EE3D-4BBA-A243-E2827F1C7453}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BaseHandSlap-008" ID="{BB7C10B3-69B0-42C9-BD07-6D950657ED3E}" ShortID="639735591">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BaseHandSlap-008" ID="{CE05A039-EE41-4EF1-83F7-3C1B4FE1F908}">
+													<Language>SFX</Language>
+													<AudioFile>BaseHandSlap-008.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="141291529"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BaseHandSlap-008" ID="{CE05A039-EE41-4EF1-83F7-3C1B4FE1F908}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BaseHandSlap-009" ID="{E061BD8D-9D38-4A05-A0BB-DD1F3D6EB178}" ShortID="469359354">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BaseHandSlap-009" ID="{5F96D439-46FB-4976-913D-CA25023E18CD}">
+													<Language>SFX</Language>
+													<AudioFile>BaseHandSlap-009.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="985700836"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BaseHandSlap-009" ID="{5F96D439-46FB-4976-913D-CA25023E18CD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
