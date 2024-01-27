@@ -40,6 +40,7 @@ public class JuggleSpawner : MonoBehaviour
             yield return new WaitForSeconds(1.0f);
             int length = All_Items.Instance.ItemList.Count;
             Spawn(All_Items.Instance.ItemList[Random.Range(0, length)]);
+            //Spawn(All_Items.Instance.ItemList[8]);
             yield return new WaitForSeconds(1.5f);
         }       
     }

@@ -59,7 +59,7 @@ public class All_Items : MonoBehaviour
 
         itemList.Add(new Juggling_Item("jelly", jelly, 4));
         itemList.Add(new Juggling_Item("paper_Plane", paper_Plane, 0.1f));
-        itemList.Add(new Juggling_Item("real_Chicken", real_Chicken, 0.5f));
+        itemList.Add(new Juggling_Item("real_Chicken", real_Chicken, 0.5f, SpecialItems.RealChicken));
         itemList.Add(new Juggling_Item("squeaky_Chicken", squeaky_Chicken, 3));
         itemList.Add(new Juggling_Item("triangle", triangle, 5));
         itemList.Add(new Juggling_Item("triangle_Beater", triangle_Beater, 2));
