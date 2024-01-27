@@ -18,7 +18,7 @@ public class Juggling_Item : MonoBehaviour
     private Rigidbody2D a_RigidBody;
 
     const int leftBound = -50;
-    const int rightBound = 1950;
+    const int rightBound = 1830;
     const int bottomBound = -50;
     const int topBound = 1150;
 
