@@ -3,14 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 public class Juggler : MonoBehaviour
 {
+<<<<<<< Updated upstream
     private const int speed = 250;
     private const float armSpan = 160f;
+=======
+
+    private const int speed = 250;
+    private const float armSpan = 160f;
+
+>>>>>>> Stashed changes
     private Transform LeftArmBase;
     private Transform LeftArmEnd;
     private Transform LeftHand;
     private Transform RightArmBase;
     private Transform RightArmEnd;
     private Transform RightHand;
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +52,35 @@ public class Juggler : MonoBehaviour
         {
             HandMovement(RightArmBase, RightArmEnd, RightHand, -1);
         }
+<<<<<<< Updated upstream
+=======
+    }
+
+
+    void HandMovement(Transform Base, Transform End, Transform Hand, int direction)
+    {
+        Vector2 relativePositionToPivot = Input.mousePosition - Base.position;
+        float lengthFromPivot = Mathf.Sqrt((relativePositionToPivot.x * relativePositionToPivot.x) + (relativePositionToPivot.y * relativePositionToPivot.y));
+        if (lengthFromPivot > 160f)
+        {
+            lengthFromPivot = 160f;
+        }
+        float armEndRotation = Mathf.Rad2Deg * Mathf.Asin(lengthFromPivot / armSpan);
+        armEndRotation = 180 - (armEndRotation * 2);
+
+        float armBaseRotation = Mathf.Rad2Deg * Mathf.Atan(relativePositionToPivot.y / relativePositionToPivot.x);
+        if (relativePositionToPivot.x * direction > 0)
+        {
+            armBaseRotation += 180;
+        }
+
+        armBaseRotation -= (180 - armEndRotation * direction) * 0.5f - 90;
+        armEndRotation = armBaseRotation - armEndRotation * direction;
+
+        End.rotation = Quaternion.Slerp(End.rotation, Quaternion.Euler(0, 0, armEndRotation), 0.01f);
+        Base.rotation = Quaternion.Slerp(Base.rotation, Quaternion.Euler(0, 0, armBaseRotation), 0.01f);
+        Hand.rotation = Quaternion.Euler(0, 0, 0);
+>>>>>>> Stashed changes
     }
     void HandMovement(Transform Base, Transform End, Transform Hand, int direction)
     {
