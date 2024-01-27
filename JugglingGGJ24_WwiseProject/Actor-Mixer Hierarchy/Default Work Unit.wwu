@@ -311,6 +311,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="JugglingPin-002" ID="{A36FE317-3E7C-4231-BCA9-BFAFEF368257}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00539004605278537"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>JugglingPin-002.wav</AudioFile>
 															<MediaIDList>
@@ -589,6 +593,245 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="RubberChicken" ID="{021E6FEF-03EA-4ED0-9CD7-2E5E8209FFE5}" ShortID="1044763558">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>0.2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="RubberChicken-001" ID="{F936DA87-E164-4D2E-AAA4-71751B29D279}" ShortID="283786536">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RubberChicken-001" ID="{FE3AC1E2-5B9A-4659-BB7F-D47848F06B4C}">
+															<Language>SFX</Language>
+															<AudioFile>RubberChicken-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="512429253"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="RubberChicken-001" ID="{FE3AC1E2-5B9A-4659-BB7F-D47848F06B4C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="RubberChicken-002" ID="{7371A770-550F-4EB7-A687-3D1F205E238C}" ShortID="241748986">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RubberChicken-002" ID="{36A701EA-45A1-467A-B76E-D2CAD08B0D1F}">
+															<Language>SFX</Language>
+															<AudioFile>RubberChicken-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="189510420"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="RubberChicken-002" ID="{36A701EA-45A1-467A-B76E-D2CAD08B0D1F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="RubberChicken-003" ID="{A5F72978-9512-4BC4-B22B-0CCA51A0451F}" ShortID="1025669466">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RubberChicken-003" ID="{5B412690-E966-4B30-A840-ACE216729368}">
+															<Language>SFX</Language>
+															<AudioFile>RubberChicken-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="74621406"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="RubberChicken-003" ID="{5B412690-E966-4B30-A840-ACE216729368}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="RubberChicken-004" ID="{984242CF-445E-440D-AFF5-7CFB6F9D06E1}" ShortID="630683886">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RubberChicken-004" ID="{16FB5ED9-5525-4223-A8A4-7E0A40D1CB0E}">
+															<Language>SFX</Language>
+															<AudioFile>RubberChicken-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="624726606"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="RubberChicken-004" ID="{16FB5ED9-5525-4223-A8A4-7E0A40D1CB0E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="RubberChicken-005" ID="{EFC42229-3FD3-419B-AD9E-C005E7384526}" ShortID="231191316">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RubberChicken-005" ID="{E244D4E4-BA3D-4D9B-8EDF-8A3B5E991F52}">
+															<Language>SFX</Language>
+															<AudioFile>RubberChicken-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1060220046"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="RubberChicken-005" ID="{E244D4E4-BA3D-4D9B-8EDF-8A3B5E991F52}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="RubberChicken-006" ID="{8E159A73-1655-43A1-8D38-6A1BDDDC0878}" ShortID="609365063">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RubberChicken-006" ID="{E980E97A-26B4-45B4-8CC5-E361E397EC8D}">
+															<Language>SFX</Language>
+															<AudioFile>RubberChicken-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="140227896"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="RubberChicken-006" ID="{E980E97A-26B4-45B4-8CC5-E361E397EC8D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="RubberChicken-007" ID="{6E1D02B1-83ED-4D70-8109-6E96F32F3E42}" ShortID="566543082">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RubberChicken-007" ID="{D7B0C217-52F9-4BD2-86F6-C397E884E011}">
+															<Language>SFX</Language>
+															<AudioFile>RubberChicken-007.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="38388676"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="RubberChicken-007" ID="{D7B0C217-52F9-4BD2-86F6-C397E884E011}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="RubberChicken-008" ID="{FA0110E4-140D-490B-A1BA-951FEDDBAEAA}" ShortID="468195636">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RubberChicken-008" ID="{D6CE35F5-B678-4C2B-B285-F0954D1E9A0A}">
+															<Language>SFX</Language>
+															<AudioFile>RubberChicken-008.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="161718497"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="RubberChicken-008" ID="{D6CE35F5-B678-4C2B-B285-F0954D1E9A0A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="RubberChicken-009" ID="{EB308013-8B27-403A-9F66-5E2628C127A7}" ShortID="505863804">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RubberChicken-009" ID="{2CA4344F-4476-4E47-AA01-6BE2F5AC5FD6}">
+															<Language>SFX</Language>
+															<AudioFile>RubberChicken-009.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="259753147"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="RubberChicken-009" ID="{2CA4344F-4476-4E47-AA01-6BE2F5AC5FD6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="RubberChicken-010" ID="{7C4EE227-CD5C-4EEE-9701-D534C8F26DD7}" ShortID="650602575">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RubberChicken-010" ID="{D58584AA-6DAB-49B9-A2AF-0EDE9197A5EE}">
+															<Language>SFX</Language>
+															<AudioFile>RubberChicken-010.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="745822246"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="RubberChicken-010" ID="{D58584AA-6DAB-49B9-A2AF-0EDE9197A5EE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
@@ -598,8 +841,17 @@
 											<GroupingBehavior>
 												<ItemRef Name="Triangle" ID="{48B8397D-1ACC-4A58-BE7E-4469168E062C}"/>
 											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="RubberChicken" ID="{021E6FEF-03EA-4ED0-9CD7-2E5E8209FFE5}"/>
+											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="RubberChicken_SW" ID="{16B7630A-5D45-425C-B52B-366AE9EF9FF5}"/>
+												<ItemList>
+													<ItemRef Name="RubberChicken" ID="{021E6FEF-03EA-4ED0-9CD7-2E5E8209FFE5}"/>
+												</ItemList>
+											</Grouping>
 											<Grouping>
 												<SwitchRef Name="JugglingPin_SW" ID="{E99E0254-5C1E-4716-9C62-BC6C933C45C3}"/>
 												<ItemList>

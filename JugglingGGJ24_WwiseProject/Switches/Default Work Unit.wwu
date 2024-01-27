@@ -7,6 +7,7 @@
 					<ChildrenList>
 						<Switch Name="JugglingPin_SW" ID="{E99E0254-5C1E-4716-9C62-BC6C933C45C3}"/>
 						<Switch Name="Triangle_SW" ID="{329D8F85-9EE4-46A2-8586-783144DDE15D}"/>
+						<Switch Name="RubberChicken_SW" ID="{16B7630A-5D45-425C-B52B-366AE9EF9FF5}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
