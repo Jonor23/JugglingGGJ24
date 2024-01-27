@@ -1282,6 +1282,18 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="ChickenFlap" ID="{0CC0196B-2E20-4BC4-81C6-EE21C3780361}" ShortID="944376152">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>31</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
@@ -1290,6 +1302,178 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="AMB_Bat_flyby-001" ID="{A6F9CAED-BFDA-411B-8169-F11E4619859B}" ShortID="664656189">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_Bat_flyby-001" ID="{0BA08394-31A5-4C82-AC31-ED7B52BF99B2}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.596886586548305"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.38666944801771"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_Bat_flyby-001.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="721301540"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_Bat_flyby-001" ID="{0BA08394-31A5-4C82-AC31-ED7B52BF99B2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AMB_Bat_flyby-002" ID="{C12285FB-9AAD-47C3-9C2E-0083DB0AFAB9}" ShortID="699954186">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_Bat_flyby-002" ID="{21439B7A-F069-475C-8844-4B6A05C43A68}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.726373002352559"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.06188815105827"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_Bat_flyby-002.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="929192786"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_Bat_flyby-002" ID="{21439B7A-F069-475C-8844-4B6A05C43A68}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AMB_Bat_flyby-003" ID="{AEDB6F45-B8A5-41CE-8A83-7E69537601C8}" ShortID="777517196">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_Bat_flyby-003" ID="{2A8C05C7-214C-4057-B4EB-D2728B7B5EE5}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.447404806329119"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.966203996646927"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.337933417546462"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.72298446692703"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_Bat_flyby-003.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1023364859"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_Bat_flyby-003" ID="{2A8C05C7-214C-4057-B4EB-D2728B7B5EE5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AMB_Bat_flyby-004" ID="{7A7C9AB7-2996-4A5C-A8F8-837435975585}" ShortID="445442588">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_Bat_flyby-004" ID="{E1A651EE-62FE-4234-ADDE-1888EBDCAF19}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.14907798212982"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.588253659214964"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.108786635608247"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.14427424121267"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_Bat_flyby-004.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="19261080"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_Bat_flyby-004" ID="{E1A651EE-62FE-4234-ADDE-1888EBDCAF19}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AMB_Bat_flyby-005" ID="{F53EB6CC-438C-4D0B-9F75-D76D176F1D82}" ShortID="577646622">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_Bat_flyby-005" ID="{B9A523EF-FB7A-488E-9338-8CD4EF46757D}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0559758486017916"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.457984215832841"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0915968431665682"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.40448492855404"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_Bat_flyby-005.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="461033440"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_Bat_flyby-005" ID="{B9A523EF-FB7A-488E-9338-8CD4EF46757D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AMB_Bat_flyby-006" ID="{5D571CC0-48C7-4181-A49C-D447E0BCD67A}" ShortID="355381631">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_Bat_flyby-006" ID="{E54A15C8-AA3D-47F6-ACE1-9140624ABE75}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0980760776769538"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="1.23932498155423"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0490380388384769"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.49788918633893"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_Bat_flyby-006.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="995332943"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_Bat_flyby-006" ID="{E54A15C8-AA3D-47F6-ACE1-9140624ABE75}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</BlendContainer>
@@ -1643,6 +1827,23 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="BirdFlap" ID="{83B1EBAE-8411-49F9-9020-3EEE46F53004}" ShortID="195737465">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>58</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>400</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-21</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
@@ -1651,6 +1852,165 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="AMB_Bat_flyby-001" ID="{750D108E-B4BC-460B-9960-0E190443E2A8}" ShortID="480155322">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_Bat_flyby-001" ID="{3606D12A-972F-4734-AF5A-2572034E416F}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.444025387554227"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.33935526737668"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_Bat_flyby-001.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="869819059"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_Bat_flyby-001" ID="{3606D12A-972F-4734-AF5A-2572034E416F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AMB_Bat_flyby-002" ID="{9A52AEEA-27FD-40BE-BFC1-2904370B1232}" ShortID="487724390">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_Bat_flyby-002" ID="{CAF76362-A03B-4E27-B52B-03267FE9F5AC}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.511920020705613"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.19332707529349"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_Bat_flyby-002.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="659306671"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_Bat_flyby-002" ID="{CAF76362-A03B-4E27-B52B-03267FE9F5AC}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AMB_Bat_flyby-003" ID="{98AD8551-58F3-417F-ACB2-DC68EA91E679}" ShortID="316085101">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_Bat_flyby-003" ID="{522153C4-A6AC-4335-AC6D-24688B9B97DF}">
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_Bat_flyby-003.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="581830692"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_Bat_flyby-003" ID="{522153C4-A6AC-4335-AC6D-24688B9B97DF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AMB_Bat_flyby-004" ID="{71166168-F6DB-47E4-8B74-9C2B4A9C93AA}" ShortID="666361577">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_Bat_flyby-004" ID="{EFFABDEE-508E-4CAE-8241-00AC2C7BE9AA}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.511700100823976"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.09995376003894"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_Bat_flyby-004.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="303496290"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_Bat_flyby-004" ID="{EFFABDEE-508E-4CAE-8241-00AC2C7BE9AA}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AMB_Bat_flyby-005" ID="{050D43B3-23D2-45E5-A604-E9B806A1CAFC}" ShortID="146873775">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_Bat_flyby-005" ID="{619CFAF5-9B5D-402C-A821-77310A92FE67}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.422363221268064"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.343420366443"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_Bat_flyby-005.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="647013207"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_Bat_flyby-005" ID="{619CFAF5-9B5D-402C-A821-77310A92FE67}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AMB_Bat_flyby-006" ID="{0261E334-9B1C-4F38-A25A-EE3D49081697}" ShortID="521825373">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_Bat_flyby-006" ID="{FC20D106-5BAF-4838-B5A3-F5DEEF3BCCDC}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="1.09666886856957"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.47114116515431"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_Bat_flyby-006.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="699014779"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_Bat_flyby-006" ID="{FC20D106-5BAF-4838-B5A3-F5DEEF3BCCDC}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</BlendContainer>
