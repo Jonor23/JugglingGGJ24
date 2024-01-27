@@ -14,12 +14,23 @@
 					</ReferenceList>
 					<ChildrenList>
 						<BlendContainer Name="Hand_Object_Blend" ID="{CA582D49-527E-46EC-A5BF-5F6B613BFC24}" ShortID="761120092">
+							<PropertyList>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-25</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="RoomVerb" ID="{DED7DEC7-C278-43F6-BA6B-390AF9719726}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
