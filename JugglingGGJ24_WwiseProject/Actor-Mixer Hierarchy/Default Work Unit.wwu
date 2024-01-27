@@ -1102,6 +1102,184 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Chicken-001" ID="{6F08BDB2-72CC-447F-B000-6393E5EDC68D}" ShortID="973205517">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Chicken-001" ID="{C99185A8-404E-49C8-9125-D31A852F1974}">
+																	<Language>SFX</Language>
+																	<AudioFile>Chicken-001.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="925791208"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Chicken-001" ID="{C99185A8-404E-49C8-9125-D31A852F1974}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Chicken-002" ID="{2C57F5EA-5E70-41B8-B0D6-08E438F4CA1B}" ShortID="315048611">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Chicken-002" ID="{D2B853BC-8F4E-4C26-9789-B809964E9640}">
+																	<Language>SFX</Language>
+																	<AudioFile>Chicken-002.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="800142626"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Chicken-002" ID="{D2B853BC-8F4E-4C26-9789-B809964E9640}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Chicken-003" ID="{036FFAE7-D57E-4C78-A8A3-3B5D43CE4BC5}" ShortID="302284129">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Chicken-003" ID="{AC52A346-5153-41C5-B30D-5C6F9BD690D5}">
+																	<Language>SFX</Language>
+																	<AudioFile>Chicken-003.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="457448647"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Chicken-003" ID="{AC52A346-5153-41C5-B30D-5C6F9BD690D5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Chicken-004" ID="{44A47BB5-E3A2-47D8-8D17-0178EDACDE52}" ShortID="463696414">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Chicken-004" ID="{C7562A39-6A48-42A2-8093-DFF183D0AA10}">
+																	<Language>SFX</Language>
+																	<AudioFile>Chicken-004.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="239708290"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Chicken-004" ID="{C7562A39-6A48-42A2-8093-DFF183D0AA10}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Chicken-005" ID="{F491363A-0389-4A3E-B521-482BD3BF1DE6}" ShortID="152343186">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Chicken-005" ID="{3B42E0F7-1F77-4740-8A37-411FADCF29D9}">
+																	<Language>SFX</Language>
+																	<AudioFile>Chicken-005.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="198675104"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Chicken-005" ID="{3B42E0F7-1F77-4740-8A37-411FADCF29D9}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Chicken-006" ID="{4C67BB9E-0905-439A-AE61-81B6F658BB7E}" ShortID="383099786">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Chicken-006" ID="{188246AD-73D9-4DB7-8E9E-1ACA3F1A6BD2}">
+																	<Language>SFX</Language>
+																	<AudioFile>Chicken-006.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="655325270"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Chicken-006" ID="{188246AD-73D9-4DB7-8E9E-1ACA3F1A6BD2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Chicken-007" ID="{22B8269A-F5B9-4C0C-93F5-8C74DB0D24D1}" ShortID="378770161">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Chicken-007" ID="{DF8AF1C4-829A-4497-8876-0ADD13CC5773}">
+																	<Language>SFX</Language>
+																	<AudioFile>Chicken-007.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="174351030"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Chicken-007" ID="{DF8AF1C4-829A-4497-8876-0ADD13CC5773}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Chicken-008" ID="{C5A596D9-6A71-4A87-B906-74E86115DE33}" ShortID="967517102">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Chicken-008" ID="{0038FD70-A593-4BA5-A2DA-082498174E14}">
+																	<Language>SFX</Language>
+																	<AudioFile>Chicken-008.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="217600973"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Chicken-008" ID="{0038FD70-A593-4BA5-A2DA-082498174E14}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="ChickenFlap" ID="{0CC0196B-2E20-4BC4-81C6-EE21C3780361}" ShortID="944376152">
 													<ReferenceList>
@@ -1288,6 +1466,194 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<BlendContainer Name="Bird" ID="{FD29B570-EDF0-44FB-A48D-75EE4AE30894}" ShortID="859013619">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="BirdChirp" ID="{6359EFB4-0FFC-40E3-AD63-F5F83E8DA9E3}" ShortID="535635947">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="BirdChirp-001" ID="{F9BFEA59-ECFB-45C0-884C-CC2EF41582DF}" ShortID="833454797">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BirdChirp-001" ID="{ADBEC952-589A-45B8-9DDA-E01C9E786F72}">
+																	<Language>SFX</Language>
+																	<AudioFile>BirdChirp-001.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="668836424"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BirdChirp-001" ID="{ADBEC952-589A-45B8-9DDA-E01C9E786F72}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BirdChirp-002" ID="{92F3C6C8-BAC0-4A9C-9F41-A598F475F014}" ShortID="528974076">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BirdChirp-002" ID="{86810EE5-397E-4C62-95B8-A40D280E654A}">
+																	<Language>SFX</Language>
+																	<AudioFile>BirdChirp-002.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="487759781"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BirdChirp-002" ID="{86810EE5-397E-4C62-95B8-A40D280E654A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BirdChirp-003" ID="{C5A1A12C-8534-46A6-A61A-0DAAEF0A99AB}" ShortID="500330130">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BirdChirp-003" ID="{43FA602A-6994-4532-91F2-383589F9B23C}">
+																	<Language>SFX</Language>
+																	<AudioFile>BirdChirp-003.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="640394969"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BirdChirp-003" ID="{43FA602A-6994-4532-91F2-383589F9B23C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BirdChirp-004" ID="{BC707A75-CDDA-4574-B78C-FEDB462C1E23}" ShortID="843592215">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BirdChirp-004" ID="{453AD43A-6619-4B65-90BE-2588246DB2CD}">
+																	<Language>SFX</Language>
+																	<AudioFile>BirdChirp-004.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="763046548"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BirdChirp-004" ID="{453AD43A-6619-4B65-90BE-2588246DB2CD}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BirdChirp-005" ID="{1822F772-14CF-4007-981C-671E4B6B7D0B}" ShortID="420687365">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BirdChirp-005" ID="{335C52AB-890A-4084-B4F2-E9473BE1BAA6}">
+																	<Language>SFX</Language>
+																	<AudioFile>BirdChirp-005.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="441320094"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BirdChirp-005" ID="{335C52AB-890A-4084-B4F2-E9473BE1BAA6}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BirdChirp-006" ID="{319DA189-8DDF-4046-8CD8-B6544A6F58AA}" ShortID="233973026">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BirdChirp-006" ID="{F6C53C3C-782B-4175-8207-E98279C40CCC}">
+																	<Language>SFX</Language>
+																	<AudioFile>BirdChirp-006.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="358190365"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BirdChirp-006" ID="{F6C53C3C-782B-4175-8207-E98279C40CCC}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BirdChirp-007" ID="{AD60285E-6F5E-4D39-9FB0-E0FB97963373}" ShortID="237923239">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BirdChirp-007" ID="{25837692-3C9E-4443-B9F8-02BFDDAA4D7C}">
+																	<Language>SFX</Language>
+																	<AudioFile>BirdChirp-007.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="48584085"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BirdChirp-007" ID="{25837692-3C9E-4443-B9F8-02BFDDAA4D7C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="BirdFlap" ID="{83B1EBAE-8411-49F9-9020-3EEE46F53004}" ShortID="195737465">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
@@ -1296,6 +1662,9 @@
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="RealChicken" ID="{58C5082A-189C-4685-A0C1-20D1EB517458}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Bird" ID="{FD29B570-EDF0-44FB-A48D-75EE4AE30894}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Jelly" ID="{BCF13E78-DCA3-4FE7-8E26-3653E5B53A7F}"/>
