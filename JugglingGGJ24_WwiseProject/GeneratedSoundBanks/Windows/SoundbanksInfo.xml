@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{8A125073-E68E-4609-E2E0-8E9BA18DF595}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1990128658" Name="Room_Medium" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="1572913279" Name="RoomVerb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1990128658"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="638808235" Name="AMB_Blend_RTPC"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="2071913860" Name="Object_SwitchGroup">
+					<Switches>
+						<Switch Id="16724608" Name="Jelly_SW"/>
+						<Switch Id="169923998" Name="JugglingPin_SW"/>
+						<Switch Id="553221778" Name="Triangle_SW"/>
+						<Switch Id="1227152183" Name="RealChicken_SW"/>
+						<Switch Id="1848499500" Name="Frog_SW"/>
+						<Switch Id="2766995314" Name="PaperPlane_SW"/>
+						<Switch Id="3236973553" Name="BowlingBall_SW"/>
+						<Switch Id="3472729409" Name="RubberChicken_SW"/>
+						<Switch Id="3533229697" Name="Bird_SW"/>
+						<Switch Id="3656468158" Name="Rocket_SW"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2502726051" Name="AMB_SwitchGroup">
+					<Switches>
+						<Switch Id="1293687882" Name="OutdoorScene_SW"/>
+						<Switch Id="1358710794" Name="Saloon_SW"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1712459862" Type="User" Language="SFX" Hash="{24E2C014-665C-45FD-6CF3-591BA167B048}">
+			<ShortName>Juggling_SoundBank</ShortName>
+			<Path>Juggling_SoundBank.bnk</Path>
+			<Media>
+				<File Id="6407671" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RocketZap-005.wav</ShortName>
+					<CachePath>SFX/RocketZap-005_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="19261080" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Bat_flyby-004.wav</ShortName>
+					<CachePath>SFX/AMB_Bat_flyby-004_1FAF29DB.wem</CachePath>
+				</File>
+				<File Id="22794784" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Whistle-003.wav</ShortName>
+					<CachePath>SFX/UI_Whistle-003_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="28902410" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>JugglingPin-005.wav</ShortName>
+					<CachePath>SFX/JugglingPin-005_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="31019644" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PaperPlane-003.wav</ShortName>
+					<CachePath>SFX/PaperPlane-003_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="32544820" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Triangle-001.wav</ShortName>
+					<CachePath>SFX/Triangle-001_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="33260571" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BaseHandSlap-003.wav</ShortName>
+					<CachePath>SFX/BaseHandSlap-003_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="38388676" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RubberChicken-007.wav</ShortName>
+					<CachePath>SFX/RubberChicken-007_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="48584085" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BirdChirp-007.wav</ShortName>
+					<CachePath>SFX/BirdChirp-007_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="53662448" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>JugglingPin-004.wav</ShortName>
+					<CachePath>SFX/JugglingPin-004_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="57269178" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Jelly-006.wav</ShortName>
+					<CachePath>SFX/Jelly-006_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="74621406" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RubberChicken-003.wav</ShortName>
+					<CachePath>SFX/RubberChicken-003_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="78299451" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Triangle-005.wav</ShortName>
+					<CachePath>SFX/Triangle-005_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="82960053" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Triangle-006.wav</ShortName>
+					<CachePath>SFX/Triangle-006_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="97882844" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RocketZap-003.wav</ShortName>
+					<CachePath>SFX/RocketZap-003_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="121413627" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Jelly-007.wav</ShortName>
+					<CachePath>SFX/Jelly-007_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="130447724" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Frog-001.wav</ShortName>
+					<CachePath>SFX/Frog-001_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="140227896" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RubberChicken-006.wav</ShortName>
+					<CachePath>SFX/RubberChicken-006_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="141291529" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BaseHandSlap-008.wav</ShortName>
+					<CachePath>SFX/BaseHandSlap-008_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="161718497" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RubberChicken-008.wav</ShortName>
+					<CachePath>SFX/RubberChicken-008_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="165151605" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Frog-009.wav</ShortName>
+					<CachePath>SFX/Frog-009_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="174351030" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chicken-007.wav</ShortName>
+					<CachePath>SFX/Chicken-007_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="181035579" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RocketZap-007.wav</ShortName>
+					<CachePath>SFX/RocketZap-007_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="186550679" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Click-004.wav</ShortName>
+					<CachePath>SFX/UI_Click-004_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="189510420" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RubberChicken-002.wav</ShortName>
+					<CachePath>SFX/RubberChicken-002_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="197378971" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BaseHandSlap-004.wav</ShortName>
+					<CachePath>SFX/BaseHandSlap-004_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="198675104" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chicken-005.wav</ShortName>
+					<CachePath>SFX/Chicken-005_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="200990497" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PaperPlane-005.wav</ShortName>
+					<CachePath>SFX/PaperPlane-005_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="203339077" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Triangle-002.wav</ShortName>
+					<CachePath>SFX/Triangle-002_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="207048404" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BowlingBall-003.wav</ShortName>
+					<CachePath>SFX/BowlingBall-003_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="208254579" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RocketZap-001.wav</ShortName>
+					<CachePath>SFX/RocketZap-001_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="217600973" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chicken-008.wav</ShortName>
+					<CachePath>SFX/Chicken-008_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="239708290" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chicken-004.wav</ShortName>
+					<CachePath>SFX/Chicken-004_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="257203075" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PaperPlane-004.wav</ShortName>
+					<CachePath>SFX/PaperPlane-004_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="259753147" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RubberChicken-009.wav</ShortName>
+					<CachePath>SFX/RubberChicken-009_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="303496290" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Bat_flyby-004.wav</ShortName>
+					<CachePath>SFX/AMB_Bat_flyby-004_16E9C809.wem</CachePath>
+				</File>
+				<File Id="310467878" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Jelly-003.wav</ShortName>
+					<CachePath>SFX/Jelly-003_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="325635693" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Click-003.wav</ShortName>
+					<CachePath>SFX/UI_Click-003_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="328056082" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Frog-006.wav</ShortName>
+					<CachePath>SFX/Frog-006_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="358190365" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BirdChirp-006.wav</ShortName>
+					<CachePath>SFX/BirdChirp-006_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="360818590" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Frog-004.wav</ShortName>
+					<CachePath>SFX/Frog-004_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="380911430" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_TumbleweedWind_Loop.wav</ShortName>
+					<CachePath>SFX/AMB_TumbleweedWind_Loop_9EDFC787.wem</CachePath>
+				</File>
+				<File Id="393838694" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RocketClang-005.wav</ShortName>
+					<CachePath>SFX/RocketClang-005_9ABE55B3.wem</CachePath>
+				</File>
+				<File Id="400500672" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BaseHandSlap-007.wav</ShortName>
+					<CachePath>SFX/BaseHandSlap-007_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="404629888" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>JugglingPin-003.wav</ShortName>
+					<CachePath>SFX/JugglingPin-003_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="405521649" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>JugglingPin-002.wav</ShortName>
+					<CachePath>SFX/JugglingPin-002_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="410989016" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>JugglingPin-002.wav</ShortName>
+					<CachePath>SFX/JugglingPin-002_22CC1D8F.wem</CachePath>
+				</File>
+				<File Id="429448271" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Click-002.wav</ShortName>
+					<CachePath>SFX/UI_Click-002_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="441320094" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BirdChirp-005.wav</ShortName>
+					<CachePath>SFX/BirdChirp-005_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="448909528" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BowlingBall-001.wav</ShortName>
+					<CachePath>SFX/BowlingBall-001_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="457448647" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chicken-003.wav</ShortName>
+					<CachePath>SFX/Chicken-003_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="461033440" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Bat_flyby-005.wav</ShortName>
+					<CachePath>SFX/AMB_Bat_flyby-005_FF57AB0D.wem</CachePath>
+				</File>
+				<File Id="487759781" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BirdChirp-002.wav</ShortName>
+					<CachePath>SFX/BirdChirp-002_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="507554249" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Jelly-002.wav</ShortName>
+					<CachePath>SFX/Jelly-002_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="512057303" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Whistle-002.wav</ShortName>
+					<CachePath>SFX/UI_Whistle-002_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="512429253" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RubberChicken-001.wav</ShortName>
+					<CachePath>SFX/RubberChicken-001_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="516315720" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PaperPlane-001.wav</ShortName>
+					<CachePath>SFX/PaperPlane-001_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="520767809" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Frog-002.wav</ShortName>
+					<CachePath>SFX/Frog-002_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="522583155" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RocketClang-007.wav</ShortName>
+					<CachePath>SFX/RocketClang-007_C3FE7BDF.wem</CachePath>
+				</File>
+				<File Id="581830692" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Bat_flyby-003.wav</ShortName>
+					<CachePath>SFX/AMB_Bat_flyby-003_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="583963773" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Saloon_Loop.wav</ShortName>
+					<CachePath>SFX/AMB_Saloon_Loop_9EDFC787.wem</CachePath>
+				</File>
+				<File Id="584363499" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RocketClang-004.wav</ShortName>
+					<CachePath>SFX/RocketClang-004_7AFD9D1B.wem</CachePath>
+				</File>
+				<File Id="598228170" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PaperPlane-002.wav</ShortName>
+					<CachePath>SFX/PaperPlane-002_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="604652303" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RocketZap-009.wav</ShortName>
+					<CachePath>SFX/RocketZap-009_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="620354541" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BaseHandSlap-005.wav</ShortName>
+					<CachePath>SFX/BaseHandSlap-005_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="640394969" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BirdChirp-003.wav</ShortName>
+					<CachePath>SFX/BirdChirp-003_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="647013207" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Bat_flyby-005.wav</ShortName>
+					<CachePath>SFX/AMB_Bat_flyby-005_7B438F2C.wem</CachePath>
+				</File>
+				<File Id="647618796" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BowlingBall-005.wav</ShortName>
+					<CachePath>SFX/BowlingBall-005_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="653886010" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RocketZap-008.wav</ShortName>
+					<CachePath>SFX/RocketZap-008_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="654461019" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Jelly-004.wav</ShortName>
+					<CachePath>SFX/Jelly-004_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="655325270" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chicken-006.wav</ShortName>
+					<CachePath>SFX/Chicken-006_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="655743071" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Triangle-004.wav</ShortName>
+					<CachePath>SFX/Triangle-004_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="658849683" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Frog-003.wav</ShortName>
+					<CachePath>SFX/Frog-003_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="659306671" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Bat_flyby-002.wav</ShortName>
+					<CachePath>SFX/AMB_Bat_flyby-002_EFB79480.wem</CachePath>
+				</File>
+				<File Id="664875806" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BowlingBall-002.wav</ShortName>
+					<CachePath>SFX/BowlingBall-002_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="668836424" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BirdChirp-001.wav</ShortName>
+					<CachePath>SFX/BirdChirp-001_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="692966761" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BaseHandSlap-006.wav</ShortName>
+					<CachePath>SFX/BaseHandSlap-006_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="699014779" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Bat_flyby-006.wav</ShortName>
+					<CachePath>SFX/AMB_Bat_flyby-006_8196E6DD.wem</CachePath>
+				</File>
+				<File Id="721301540" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Bat_flyby-001.wav</ShortName>
+					<CachePath>SFX/AMB_Bat_flyby-001_EE9F0D1D.wem</CachePath>
+				</File>
+				<File Id="734337491" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_OutdoorScene_Loop.wav</ShortName>
+					<CachePath>SFX/AMB_OutdoorScene_Loop_9EDFC787.wem</CachePath>
+				</File>
+				<File Id="739785116" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Triangle-003.wav</ShortName>
+					<CachePath>SFX/Triangle-003_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="763046548" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BirdChirp-004.wav</ShortName>
+					<CachePath>SFX/BirdChirp-004_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="771702802" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RocketClang-003.wav</ShortName>
+					<CachePath>SFX/RocketClang-003_2C704BE3.wem</CachePath>
+				</File>
+				<File Id="782366253" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Whistle-001.wav</ShortName>
+					<CachePath>SFX/UI_Whistle-001_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="787012307" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RocketZap-006.wav</ShortName>
+					<CachePath>SFX/RocketZap-006_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="799779028" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Frog-005.wav</ShortName>
+					<CachePath>SFX/Frog-005_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="800142626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chicken-002.wav</ShortName>
+					<CachePath>SFX/Chicken-002_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="847263843" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>JugglingPin-006.wav</ShortName>
+					<CachePath>SFX/JugglingPin-006_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="857767970" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BaseHandSlap-002.wav</ShortName>
+					<CachePath>SFX/BaseHandSlap-002_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="869301597" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Frog-007.wav</ShortName>
+					<CachePath>SFX/Frog-007_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="869819059" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Bat_flyby-001.wav</ShortName>
+					<CachePath>SFX/AMB_Bat_flyby-001_F2DCC10E.wem</CachePath>
+				</File>
+				<File Id="875760030" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RocketClang-008.wav</ShortName>
+					<CachePath>SFX/RocketClang-008_CABCDCD3.wem</CachePath>
+				</File>
+				<File Id="880900962" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Frog-008.wav</ShortName>
+					<CachePath>SFX/Frog-008_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="882338007" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Jelly-005.wav</ShortName>
+					<CachePath>SFX/Jelly-005_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="925791208" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chicken-001.wav</ShortName>
+					<CachePath>SFX/Chicken-001_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="929192786" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Bat_flyby-002.wav</ShortName>
+					<CachePath>SFX/AMB_Bat_flyby-002_45AF9AF0.wem</CachePath>
+				</File>
+				<File Id="963337792" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RocketClang-006.wav</ShortName>
+					<CachePath>SFX/RocketClang-006_5A1B1104.wem</CachePath>
+				</File>
+				<File Id="964406803" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BaseHandSlap-001.wav</ShortName>
+					<CachePath>SFX/BaseHandSlap-001_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="983155238" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BowlingBall-004.wav</ShortName>
+					<CachePath>SFX/BowlingBall-004_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="985700836" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BaseHandSlap-009.wav</ShortName>
+					<CachePath>SFX/BaseHandSlap-009_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="994505982" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>JugglingPin-001.wav</ShortName>
+					<CachePath>SFX/JugglingPin-001_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="995332943" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Bat_flyby-006.wav</ShortName>
+					<CachePath>SFX/AMB_Bat_flyby-006_115838C8.wem</CachePath>
+				</File>
+				<File Id="1023364859" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Bat_flyby-003.wav</ShortName>
+					<CachePath>SFX/AMB_Bat_flyby-003_504F6256.wem</CachePath>
+				</File>
+				<File Id="1026563754" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RocketZap-004.wav</ShortName>
+					<CachePath>SFX/RocketZap-004_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1032316818" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Jelly-001.wav</ShortName>
+					<CachePath>SFX/Jelly-001_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1048032111" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RocketZap-002.wav</ShortName>
+					<CachePath>SFX/RocketZap-002_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1052488000" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RocketClang-002.wav</ShortName>
+					<CachePath>SFX/RocketClang-002_83C1453F.wem</CachePath>
+				</File>
+				<File Id="1058377727" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Triangle-007.wav</ShortName>
+					<CachePath>SFX/Triangle-007_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1060220046" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RubberChicken-005.wav</ShortName>
+					<CachePath>SFX/RubberChicken-005_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1067936982" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RocketClang-001.wav</ShortName>
+					<CachePath>SFX/RocketClang-001_BF7B4C91.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3605142646" Name="Triangle_PitchShift" LibName="Wwise Pitch Shifter" LibId="8912899"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="239793012" Name="BirdCollision" DurationType="OneShot" DurationMin="0.7543345" DurationMax="2.3849304">
+					<MediaRefs>
+						<MediaRef Id="48584085"/>
+						<MediaRef Id="303496290"/>
+						<MediaRef Id="358190365"/>
+						<MediaRef Id="441320094"/>
+						<MediaRef Id="487759781"/>
+						<MediaRef Id="581830692"/>
+						<MediaRef Id="640394969"/>
+						<MediaRef Id="647013207"/>
+						<MediaRef Id="659306671"/>
+						<MediaRef Id="668836424"/>
+						<MediaRef Id="699014779"/>
+						<MediaRef Id="763046548"/>
+						<MediaRef Id="869819059"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1944248036" Name="BowlingBallCollision" DurationType="OneShot" DurationMin="0.23044772" DurationMax="0.31511134">
+					<MediaRefs>
+						<MediaRef Id="207048404"/>
+						<MediaRef Id="448909528"/>
+						<MediaRef Id="647618796"/>
+						<MediaRef Id="664875806"/>
+						<MediaRef Id="983155238"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3433417529" Name="FrogCollision" DurationType="OneShot" DurationMin="0.31759286" DurationMax="0.79003406">
+					<MediaRefs>
+						<MediaRef Id="130447724"/>
+						<MediaRef Id="165151605"/>
+						<MediaRef Id="328056082"/>
+						<MediaRef Id="360818590"/>
+						<MediaRef Id="520767809"/>
+						<MediaRef Id="658849683"/>
+						<MediaRef Id="799779028"/>
+						<MediaRef Id="869301597"/>
+						<MediaRef Id="880900962"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3860318738" Name="HandCollision" DurationType="OneShot" DurationMin="0.25834468" DurationMax="4.2333345">
+					<MediaRefs>
+						<MediaRef Id="33260571"/>
+						<MediaRef Id="141291529"/>
+						<MediaRef Id="197378971"/>
+						<MediaRef Id="400500672"/>
+						<MediaRef Id="620354541"/>
+						<MediaRef Id="692966761"/>
+						<MediaRef Id="857767970"/>
+						<MediaRef Id="964406803"/>
+						<MediaRef Id="985700836"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2071913860" Id="1227152183"/>
+							<MediaRefs>
+								<MediaRef Id="19261080"/>
+								<MediaRef Id="174351030"/>
+								<MediaRef Id="198675104"/>
+								<MediaRef Id="217600973"/>
+								<MediaRef Id="239708290"/>
+								<MediaRef Id="457448647"/>
+								<MediaRef Id="461033440"/>
+								<MediaRef Id="655325270"/>
+								<MediaRef Id="721301540"/>
+								<MediaRef Id="800142626"/>
+								<MediaRef Id="925791208"/>
+								<MediaRef Id="929192786"/>
+								<MediaRef Id="995332943"/>
+								<MediaRef Id="1023364859"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2071913860" Id="3472729409"/>
+							<MediaRefs>
+								<MediaRef Id="28902410"/>
+								<MediaRef Id="38388676"/>
+								<MediaRef Id="53662448"/>
+								<MediaRef Id="74621406"/>
+								<MediaRef Id="140227896"/>
+								<MediaRef Id="161718497"/>
+								<MediaRef Id="189510420"/>
+								<MediaRef Id="259753147"/>
+								<MediaRef Id="404629888"/>
+								<MediaRef Id="410989016"/>
+								<MediaRef Id="512429253"/>
+								<MediaRef Id="847263843"/>
+								<MediaRef Id="994505982"/>
+								<MediaRef Id="1060220046"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2071913860" Id="3236973553"/>
+							<MediaRefs>
+								<MediaRef Id="207048404"/>
+								<MediaRef Id="448909528"/>
+								<MediaRef Id="647618796"/>
+								<MediaRef Id="664875806"/>
+								<MediaRef Id="983155238"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2071913860" Id="169923998" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="28902410"/>
+								<MediaRef Id="53662448"/>
+								<MediaRef Id="404629888"/>
+								<MediaRef Id="405521649"/>
+								<MediaRef Id="847263843"/>
+								<MediaRef Id="994505982"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2071913860" Id="2766995314"/>
+							<MediaRefs>
+								<MediaRef Id="31019644"/>
+								<MediaRef Id="200990497"/>
+								<MediaRef Id="257203075"/>
+								<MediaRef Id="516315720"/>
+								<MediaRef Id="598228170"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2071913860" Id="16724608"/>
+							<MediaRefs>
+								<MediaRef Id="57269178"/>
+								<MediaRef Id="121413627"/>
+								<MediaRef Id="310467878"/>
+								<MediaRef Id="507554249"/>
+								<MediaRef Id="654461019"/>
+								<MediaRef Id="882338007"/>
+								<MediaRef Id="1032316818"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2071913860" Id="553221778"/>
+							<MediaRefs>
+								<MediaRef Id="32544820"/>
+								<MediaRef Id="78299451"/>
+								<MediaRef Id="82960053"/>
+								<MediaRef Id="203339077"/>
+								<MediaRef Id="655743071"/>
+								<MediaRef Id="739785116"/>
+								<MediaRef Id="1058377727"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="3605142646"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2071913860" Id="1848499500"/>
+							<MediaRefs>
+								<MediaRef Id="130447724"/>
+								<MediaRef Id="165151605"/>
+								<MediaRef Id="328056082"/>
+								<MediaRef Id="360818590"/>
+								<MediaRef Id="520767809"/>
+								<MediaRef Id="658849683"/>
+								<MediaRef Id="799779028"/>
+								<MediaRef Id="869301597"/>
+								<MediaRef Id="880900962"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2071913860" Id="3533229697"/>
+							<MediaRefs>
+								<MediaRef Id="48584085"/>
+								<MediaRef Id="303496290"/>
+								<MediaRef Id="358190365"/>
+								<MediaRef Id="441320094"/>
+								<MediaRef Id="487759781"/>
+								<MediaRef Id="581830692"/>
+								<MediaRef Id="640394969"/>
+								<MediaRef Id="647013207"/>
+								<MediaRef Id="659306671"/>
+								<MediaRef Id="668836424"/>
+								<MediaRef Id="699014779"/>
+								<MediaRef Id="763046548"/>
+								<MediaRef Id="869819059"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2071913860" Id="3656468158"/>
+							<MediaRefs>
+								<MediaRef Id="6407671"/>
+								<MediaRef Id="97882844"/>
+								<MediaRef Id="181035579"/>
+								<MediaRef Id="208254579"/>
+								<MediaRef Id="393838694"/>
+								<MediaRef Id="522583155"/>
+								<MediaRef Id="584363499"/>
+								<MediaRef Id="604652303"/>
+								<MediaRef Id="653886010"/>
+								<MediaRef Id="771702802"/>
+								<MediaRef Id="787012307"/>
+								<MediaRef Id="875760030"/>
+								<MediaRef Id="963337792"/>
+								<MediaRef Id="1026563754"/>
+								<MediaRef Id="1048032111"/>
+								<MediaRef Id="1052488000"/>
+								<MediaRef Id="1067936982"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2980418053" Name="JellyCollision" DurationType="OneShot" DurationMin="0.23542877" DurationMax="0.48860556">
+					<MediaRefs>
+						<MediaRef Id="57269178"/>
+						<MediaRef Id="121413627"/>
+						<MediaRef Id="310467878"/>
+						<MediaRef Id="507554249"/>
+						<MediaRef Id="654461019"/>
+						<MediaRef Id="882338007"/>
+						<MediaRef Id="1032316818"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1538471339" Name="JugglingPinCollision" DurationType="OneShot" DurationMin="0.38560322" DurationMax="0.5851029">
+					<MediaRefs>
+						<MediaRef Id="28902410"/>
+						<MediaRef Id="53662448"/>
+						<MediaRef Id="404629888"/>
+						<MediaRef Id="405521649"/>
+						<MediaRef Id="847263843"/>
+						<MediaRef Id="994505982"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3904978471" Name="PaperPlaneCollision" DurationType="OneShot" DurationMin="0.31412148" DurationMax="0.5841803">
+					<MediaRefs>
+						<MediaRef Id="31019644"/>
+						<MediaRef Id="200990497"/>
+						<MediaRef Id="257203075"/>
+						<MediaRef Id="516315720"/>
+						<MediaRef Id="598228170"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="278617630" Name="Play_Ambience" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2502726051" Id="1293687882"/>
+							<MediaRefs>
+								<MediaRef Id="734337491"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2502726051" Id="1358710794" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="380911430"/>
+								<MediaRef Id="583963773"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="826343242" Name="RealChickenCollision" DurationType="OneShot" DurationMin="1.0628015" DurationMax="1.5699252">
+					<MediaRefs>
+						<MediaRef Id="19261080"/>
+						<MediaRef Id="174351030"/>
+						<MediaRef Id="198675104"/>
+						<MediaRef Id="217600973"/>
+						<MediaRef Id="239708290"/>
+						<MediaRef Id="457448647"/>
+						<MediaRef Id="461033440"/>
+						<MediaRef Id="655325270"/>
+						<MediaRef Id="721301540"/>
+						<MediaRef Id="800142626"/>
+						<MediaRef Id="925791208"/>
+						<MediaRef Id="929192786"/>
+						<MediaRef Id="995332943"/>
+						<MediaRef Id="1023364859"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1684680715" Name="RocketCollision" DurationType="OneShot" DurationMin="2.085511" DurationMax="4.1333346">
+					<MediaRefs>
+						<MediaRef Id="6407671"/>
+						<MediaRef Id="97882844"/>
+						<MediaRef Id="181035579"/>
+						<MediaRef Id="208254579"/>
+						<MediaRef Id="393838694"/>
+						<MediaRef Id="522583155"/>
+						<MediaRef Id="584363499"/>
+						<MediaRef Id="604652303"/>
+						<MediaRef Id="653886010"/>
+						<MediaRef Id="771702802"/>
+						<MediaRef Id="787012307"/>
+						<MediaRef Id="875760030"/>
+						<MediaRef Id="963337792"/>
+						<MediaRef Id="1026563754"/>
+						<MediaRef Id="1048032111"/>
+						<MediaRef Id="1052488000"/>
+						<MediaRef Id="1067936982"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3369665588" Name="RubberChickenCollision" DurationType="OneShot" DurationMin="0.12240262" DurationMax="0.73879683">
+					<MediaRefs>
+						<MediaRef Id="28902410"/>
+						<MediaRef Id="38388676"/>
+						<MediaRef Id="53662448"/>
+						<MediaRef Id="74621406"/>
+						<MediaRef Id="140227896"/>
+						<MediaRef Id="161718497"/>
+						<MediaRef Id="189510420"/>
+						<MediaRef Id="259753147"/>
+						<MediaRef Id="404629888"/>
+						<MediaRef Id="410989016"/>
+						<MediaRef Id="512429253"/>
+						<MediaRef Id="847263843"/>
+						<MediaRef Id="994505982"/>
+						<MediaRef Id="1060220046"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2477713992" Name="Stop_Ambience" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2124973191" Name="TriangleCollision" DurationType="OneShot" DurationMin="0.43334806" DurationMax="0.5758156">
+					<MediaRefs>
+						<MediaRef Id="32544820"/>
+						<MediaRef Id="78299451"/>
+						<MediaRef Id="82960053"/>
+						<MediaRef Id="203339077"/>
+						<MediaRef Id="655743071"/>
+						<MediaRef Id="739785116"/>
+						<MediaRef Id="1058377727"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3605142646"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="375339906" Name="UI_Interaction" DurationType="OneShot" DurationMin="0.9031973" DurationMax="1.0163265">
+					<MediaRefs>
+						<MediaRef Id="22794784"/>
+						<MediaRef Id="186550679"/>
+						<MediaRef Id="325635693"/>
+						<MediaRef Id="429448271"/>
+						<MediaRef Id="512057303"/>
+						<MediaRef Id="782366253"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2071913860" Name="Object_SwitchGroup">
+					<Switches>
+						<Switch Id="16724608" Name="Jelly_SW"/>
+						<Switch Id="169923998" Name="JugglingPin_SW"/>
+						<Switch Id="553221778" Name="Triangle_SW"/>
+						<Switch Id="1227152183" Name="RealChicken_SW"/>
+						<Switch Id="1848499500" Name="Frog_SW"/>
+						<Switch Id="2766995314" Name="PaperPlane_SW"/>
+						<Switch Id="3236973553" Name="BowlingBall_SW"/>
+						<Switch Id="3472729409" Name="RubberChicken_SW"/>
+						<Switch Id="3533229697" Name="Bird_SW"/>
+						<Switch Id="3656468158" Name="Rocket_SW"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2502726051" Name="AMB_SwitchGroup">
+					<Switches>
+						<Switch Id="1293687882" Name="OutdoorScene_SW"/>
+						<Switch Id="1358710794" Name="Saloon_SW"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{66A963CB-0BA1-A2D5-1CBA-6D69C67C0A0F}</FileHash>
+</SoundBanksInfo>

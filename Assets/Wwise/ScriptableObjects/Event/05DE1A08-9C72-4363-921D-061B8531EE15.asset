@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9980a7cf3f9a1054ea85de6ddd252ea7, type: 3}
+  m_Name: 05DE1A08-9C72-4363-921D-061B8531EE15
+  m_EditorClassIdentifier: 
+  objectName: RealChickenCollision
+  id: 826343242
+  guid: 05DE1A08-9C72-4363-921D-061B8531EE15
