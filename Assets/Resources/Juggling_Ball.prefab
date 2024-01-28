@@ -168,7 +168,7 @@ MonoBehaviour:
   sound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 68ba1855c1311ae4c82d174e46095d5b, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 55900b8772eae0d4ebb03a64d3e9c503, type: 2}
   mass: 0
 --- !u!114 &5536993388767720199
 MonoBehaviour:
