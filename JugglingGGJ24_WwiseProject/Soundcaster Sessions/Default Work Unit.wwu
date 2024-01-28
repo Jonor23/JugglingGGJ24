@@ -13,11 +13,29 @@
 							<ObjectRef Name="HandCollision" ID="{A3D1F555-6CF9-4D05-BBB6-40659231A676}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}"/>
 							<Position X="0" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="UIClick" ID="{BEE4F5C9-45CE-4231-8FEE-5CF1B7FBD470}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="AMB_Switch" ID="{12380704-CD20-4FD1-9259-209D36CFDBC3}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_Interaction" ID="{7C0E3720-0F10-4936-95E5-00BB0EE5F55E}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+							<Position X="2" Y="0"/>
+						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="AMB_Blend_RTPC" ID="{184EBCEE-A984-43F3-9C53-087A4541F01F}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="PaperPlane_SW" ID="{44776460-7B1C-4B13-989C-4936868420A5}"/>
+						<CurrentSwitchRef Name="BowlingBall_SW" ID="{39C1CC2C-A52A-4E31-BF01-EB7A07C7C036}"/>
+						<CurrentSwitchRef Name="OutdoorScene_SW" ID="{737DFC7D-DD02-4030-A67A-E33C90D757A0}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

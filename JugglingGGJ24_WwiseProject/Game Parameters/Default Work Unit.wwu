@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{71C0D831-2293-4929-B27B-F3E15B2509F7}" SchemaVersion="110">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{71C0D831-2293-4929-B27B-F3E15B2509F7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{71C0D831-2293-4929-B27B-F3E15B2509F7}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="AMB_Blend_RTPC" ID="{184EBCEE-A984-43F3-9C53-087A4541F01F}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
