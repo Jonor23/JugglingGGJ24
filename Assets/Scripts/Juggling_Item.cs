@@ -76,6 +76,8 @@ public class Juggling_Item : MonoBehaviour
         if (collision.tag == "Player")
         {
             a_Transform.parent.parent.Find("GameUI").GetComponent<GameUI>().AddScore(0.01f);
+            Juggler juggler = FindObjectOfType<Juggler>();
+            juggler.playHandSlap();
         }
     }
 

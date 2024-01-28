@@ -1304,6 +1304,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 306ecd61d09a4a148939b3a4ad831c56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8745b3b28acb28e458f27fdf403546aa, type: 2}
 --- !u!61 &707068090
 BoxCollider2D:
   m_ObjectHideFlags: 0
