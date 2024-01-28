@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: f111a1bca0d9974ba49d762898bb3fb3
     GuidInternal: 
-    m_lastTime: -8584951674451980084
+    m_lastTime: -8584951655442485569
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: c23ac7304e3bde478d6065f3561f1071
     GuidInternal: 
-    m_lastTime: -8584951674452099966
+    m_lastTime: -8584951627364952723
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -54,6 +54,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: RoomVerb
+      guid: c7ded7de78c2f643ba6b390af9719726
+      id: 1572913279
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c23ac7304e3bde478d6065f3561f1071
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: RoomVerb
+        ObjectType: 1
+        guid: c7ded7de78c2f643ba6b390af9719726
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RoomVerb
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -66,8 +83,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 5c994bc624a4e341bb9454c24746d882
     GuidInternal: 
-    m_lastTime: -8584951674452032046
-    List: []
+    m_lastTime: -8584951608428312354
+    List:
+    - name: Juggling_SoundBank
+      guid: 2960c7a91a4a4744a9306dabe4b3817e
+      id: 1712459862
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5c994bc624a4e341bb9454c24746d882
+      - ElementName: Juggling_SoundBank
+        ObjectType: 7
+        guid: 2960c7a91a4a4744a9306dabe4b3817e
+      Path: SoundBanks\Default Work Unit\Juggling_SoundBank
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +111,246 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: f5bc6c06d208bb409402882c5c06634b
     GuidInternal: 
-    m_lastTime: -8584951674452099966
-    List: []
+    m_lastTime: -8584951611079335853
+    List:
+    - name: BirdCollision
+      guid: 64c35d65189f6b498718dbb6dfd846fb
+      id: 239793012
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f5bc6c06d208bb409402882c5c06634b
+      - ElementName: BirdCollision
+        ObjectType: 3
+        guid: 64c35d65189f6b498718dbb6dfd846fb
+      Path: Events\Default Work Unit\BirdCollision
+      maxAttenuation: 0
+      maxDuration: 2.3849304
+      minDuration: 0.7543345
+    - name: BowlingBallCollision
+      guid: bae36a37f8e02742908950fbb757846d
+      id: 1944248036
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f5bc6c06d208bb409402882c5c06634b
+      - ElementName: BowlingBallCollision
+        ObjectType: 3
+        guid: bae36a37f8e02742908950fbb757846d
+      Path: Events\Default Work Unit\BowlingBallCollision
+      maxAttenuation: 0
+      maxDuration: 0.31511134
+      minDuration: 0.23044772
+    - name: FrogCollision
+      guid: 22ebc48d2a23eb41ad01c89a33be94a0
+      id: 3433417529
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f5bc6c06d208bb409402882c5c06634b
+      - ElementName: FrogCollision
+        ObjectType: 3
+        guid: 22ebc48d2a23eb41ad01c89a33be94a0
+      Path: Events\Default Work Unit\FrogCollision
+      maxAttenuation: 0
+      maxDuration: 0.79003406
+      minDuration: 0.31759286
+    - name: HandCollision
+      guid: 55f5d1a3f96c054dbbb640659231a676
+      id: 3860318738
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f5bc6c06d208bb409402882c5c06634b
+      - ElementName: HandCollision
+        ObjectType: 3
+        guid: 55f5d1a3f96c054dbbb640659231a676
+      Path: Events\Default Work Unit\HandCollision
+      maxAttenuation: 0
+      maxDuration: 4.2333345
+      minDuration: 0.25834468
+    - name: JellyCollision
+      guid: b81b566c7eda7447b6eace00698b066c
+      id: 2980418053
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f5bc6c06d208bb409402882c5c06634b
+      - ElementName: JellyCollision
+        ObjectType: 3
+        guid: b81b566c7eda7447b6eace00698b066c
+      Path: Events\Default Work Unit\JellyCollision
+      maxAttenuation: 0
+      maxDuration: 0.48860556
+      minDuration: 0.23542877
+    - name: JugglingPinCollision
+      guid: 7ab410a02f91d1429b2e14615b3bdf8e
+      id: 1538471339
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f5bc6c06d208bb409402882c5c06634b
+      - ElementName: JugglingPinCollision
+        ObjectType: 3
+        guid: 7ab410a02f91d1429b2e14615b3bdf8e
+      Path: Events\Default Work Unit\JugglingPinCollision
+      maxAttenuation: 0
+      maxDuration: 0.5851029
+      minDuration: 0.38560322
+    - name: PaperPlaneCollision
+      guid: 17149519e2971e48aba0f210f917a165
+      id: 3904978471
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f5bc6c06d208bb409402882c5c06634b
+      - ElementName: PaperPlaneCollision
+        ObjectType: 3
+        guid: 17149519e2971e48aba0f210f917a165
+      Path: Events\Default Work Unit\PaperPlaneCollision
+      maxAttenuation: 0
+      maxDuration: 0.5841803
+      minDuration: 0.31412148
+    - name: Play_Ambience
+      guid: ce4426cfecead643a50ae1999a2d9bd5
+      id: 278617630
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f5bc6c06d208bb409402882c5c06634b
+      - ElementName: Play_Ambience
+        ObjectType: 3
+        guid: ce4426cfecead643a50ae1999a2d9bd5
+      Path: Events\Default Work Unit\Play_Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: RealChickenCollision
+      guid: 081ade05729c6343921d061b8531ee15
+      id: 826343242
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f5bc6c06d208bb409402882c5c06634b
+      - ElementName: RealChickenCollision
+        ObjectType: 3
+        guid: 081ade05729c6343921d061b8531ee15
+      Path: Events\Default Work Unit\RealChickenCollision
+      maxAttenuation: 0
+      maxDuration: 1.5699252
+      minDuration: 1.0628015
+    - name: RocketCollision
+      guid: 1a2e7c8ee9d6f74594f2488633e1b5ef
+      id: 1684680715
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f5bc6c06d208bb409402882c5c06634b
+      - ElementName: RocketCollision
+        ObjectType: 3
+        guid: 1a2e7c8ee9d6f74594f2488633e1b5ef
+      Path: Events\Default Work Unit\RocketCollision
+      maxAttenuation: 0
+      maxDuration: 4.1333346
+      minDuration: 2.085511
+    - name: RubberChickenCollision
+      guid: e145c51a7d08fa41b18b0d6054d63bd1
+      id: 3369665588
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f5bc6c06d208bb409402882c5c06634b
+      - ElementName: RubberChickenCollision
+        ObjectType: 3
+        guid: e145c51a7d08fa41b18b0d6054d63bd1
+      Path: Events\Default Work Unit\RubberChickenCollision
+      maxAttenuation: 0
+      maxDuration: 0.73879683
+      minDuration: 0.12240262
+    - name: Stop_Ambience
+      guid: b6dff3ed2325bf428c5e81e52d0c748f
+      id: 2477713992
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f5bc6c06d208bb409402882c5c06634b
+      - ElementName: Stop_Ambience
+        ObjectType: 3
+        guid: b6dff3ed2325bf428c5e81e52d0c748f
+      Path: Events\Default Work Unit\Stop_Ambience
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: TriangleCollision
+      guid: 58d9355d2f9a874eafb298a9b794cf61
+      id: 2124973191
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f5bc6c06d208bb409402882c5c06634b
+      - ElementName: TriangleCollision
+        ObjectType: 3
+        guid: 58d9355d2f9a874eafb298a9b794cf61
+      Path: Events\Default Work Unit\TriangleCollision
+      maxAttenuation: 0
+      maxDuration: 0.5758156
+      minDuration: 0.43334806
+    - name: UI_Interaction
+      guid: 15bda5bce8d00448bce505226a819fc7
+      id: 375339906
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f5bc6c06d208bb409402882c5c06634b
+      - ElementName: UI_Interaction
+        ObjectType: 3
+        guid: 15bda5bce8d00448bce505226a819fc7
+      Path: Events\Default Work Unit\UI_Interaction
+      maxAttenuation: 0
+      maxDuration: 1.0163265
+      minDuration: 0.9031973
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -94,8 +363,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 31d8c07193222949b27bf3e15b2509f7
     GuidInternal: 
-    m_lastTime: -8584951674452099966
-    List: []
+    m_lastTime: -8584951612300862812
+    List:
+    - name: AMB_Blend_RTPC
+      guid: eebc4e1884a9f3439c53087a4541f01f
+      id: 638808235
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 31d8c07193222949b27bf3e15b2509f7
+      - ElementName: AMB_Blend_RTPC
+        ObjectType: 13
+        guid: eebc4e1884a9f3439c53087a4541f01f
+      Path: Game Parameters\Default Work Unit\AMB_Blend_RTPC
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -108,7 +391,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 9dfa4c16eeccbe42aa97bb155c3c0653
     GuidInternal: 
-    m_lastTime: -8584951674451997005
+    m_lastTime: -8584951655442798076
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -122,8 +405,236 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 9e95c23d7f2d1241b711fad40b2916a0
     GuidInternal: 
-    m_lastTime: -8584951674451997005
-    List: []
+    m_lastTime: -8584951611280202432
+    List:
+    - name: AMB_SwitchGroup
+      guid: 0ead108e06fd1c499c2de02bf42da849
+      id: 2502726051
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9e95c23d7f2d1241b711fad40b2916a0
+      - ElementName: AMB_SwitchGroup
+        ObjectType: 11
+        guid: 0ead108e06fd1c499c2de02bf42da849
+      Path: Switches\Default Work Unit\AMB_SwitchGroup
+      values:
+      - name: OutdoorScene_SW
+        guid: 7dfc7d7302dd3040a67ae33c90d757a0
+        id: 1293687882
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9e95c23d7f2d1241b711fad40b2916a0
+        - ElementName: AMB_SwitchGroup
+          ObjectType: 11
+          guid: 0ead108e06fd1c499c2de02bf42da849
+        - ElementName: OutdoorScene_SW
+          ObjectType: 10
+          guid: 7dfc7d7302dd3040a67ae33c90d757a0
+      - name: Saloon_SW
+        guid: b31ff30272438745af4c22db9f14dc00
+        id: 1358710794
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9e95c23d7f2d1241b711fad40b2916a0
+        - ElementName: AMB_SwitchGroup
+          ObjectType: 11
+          guid: 0ead108e06fd1c499c2de02bf42da849
+        - ElementName: Saloon_SW
+          ObjectType: 10
+          guid: b31ff30272438745af4c22db9f14dc00
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Object_SwitchGroup
+      guid: 019cc9f4e731c744a0fe37b19b634758
+      id: 2071913860
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9e95c23d7f2d1241b711fad40b2916a0
+      - ElementName: Object_SwitchGroup
+        ObjectType: 11
+        guid: 019cc9f4e731c744a0fe37b19b634758
+      Path: Switches\Default Work Unit\Object_SwitchGroup
+      values:
+      - name: Bird_SW
+        guid: df1240774847fb42972ef51cd150a7fe
+        id: 3533229697
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9e95c23d7f2d1241b711fad40b2916a0
+        - ElementName: Object_SwitchGroup
+          ObjectType: 11
+          guid: 019cc9f4e731c744a0fe37b19b634758
+        - ElementName: Bird_SW
+          ObjectType: 10
+          guid: df1240774847fb42972ef51cd150a7fe
+      - name: BowlingBall_SW
+        guid: 2cccc1392aa5314ebf01eb7a07c7c036
+        id: 3236973553
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9e95c23d7f2d1241b711fad40b2916a0
+        - ElementName: Object_SwitchGroup
+          ObjectType: 11
+          guid: 019cc9f4e731c744a0fe37b19b634758
+        - ElementName: BowlingBall_SW
+          ObjectType: 10
+          guid: 2cccc1392aa5314ebf01eb7a07c7c036
+      - name: Frog_SW
+        guid: 994f1e01742eec4abd9d6ef505c10216
+        id: 1848499500
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9e95c23d7f2d1241b711fad40b2916a0
+        - ElementName: Object_SwitchGroup
+          ObjectType: 11
+          guid: 019cc9f4e731c744a0fe37b19b634758
+        - ElementName: Frog_SW
+          ObjectType: 10
+          guid: 994f1e01742eec4abd9d6ef505c10216
+      - name: Jelly_SW
+        guid: 7f063ff59752a4499030ba9897e3c0f4
+        id: 16724608
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9e95c23d7f2d1241b711fad40b2916a0
+        - ElementName: Object_SwitchGroup
+          ObjectType: 11
+          guid: 019cc9f4e731c744a0fe37b19b634758
+        - ElementName: Jelly_SW
+          ObjectType: 10
+          guid: 7f063ff59752a4499030ba9897e3c0f4
+      - name: JugglingPin_SW
+        guid: 54029ee91e5c16479c62bc6c933c45c3
+        id: 169923998
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9e95c23d7f2d1241b711fad40b2916a0
+        - ElementName: Object_SwitchGroup
+          ObjectType: 11
+          guid: 019cc9f4e731c744a0fe37b19b634758
+        - ElementName: JugglingPin_SW
+          ObjectType: 10
+          guid: 54029ee91e5c16479c62bc6c933c45c3
+      - name: PaperPlane_SW
+        guid: 606477441c7b134b989c4936868420a5
+        id: 2766995314
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9e95c23d7f2d1241b711fad40b2916a0
+        - ElementName: Object_SwitchGroup
+          ObjectType: 11
+          guid: 019cc9f4e731c744a0fe37b19b634758
+        - ElementName: PaperPlane_SW
+          ObjectType: 10
+          guid: 606477441c7b134b989c4936868420a5
+      - name: RealChicken_SW
+        guid: 000919b5e0e8834995bd34f5db6340c0
+        id: 1227152183
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9e95c23d7f2d1241b711fad40b2916a0
+        - ElementName: Object_SwitchGroup
+          ObjectType: 11
+          guid: 019cc9f4e731c744a0fe37b19b634758
+        - ElementName: RealChicken_SW
+          ObjectType: 10
+          guid: 000919b5e0e8834995bd34f5db6340c0
+      - name: Rocket_SW
+        guid: fb2cf0606e7ca24f87ec3dace3e46dfb
+        id: 3656468158
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9e95c23d7f2d1241b711fad40b2916a0
+        - ElementName: Object_SwitchGroup
+          ObjectType: 11
+          guid: 019cc9f4e731c744a0fe37b19b634758
+        - ElementName: Rocket_SW
+          ObjectType: 10
+          guid: fb2cf0606e7ca24f87ec3dace3e46dfb
+      - name: RubberChicken_SW
+        guid: 0a63b716455d5c42b52b366ae9ef9ff5
+        id: 3472729409
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9e95c23d7f2d1241b711fad40b2916a0
+        - ElementName: Object_SwitchGroup
+          ObjectType: 11
+          guid: 019cc9f4e731c744a0fe37b19b634758
+        - ElementName: RubberChicken_SW
+          ObjectType: 10
+          guid: 0a63b716455d5c42b52b366ae9ef9ff5
+      - name: Triangle_SW
+        guid: 858f9d32e49ea2468586783144dde15d
+        id: 553221778
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9e95c23d7f2d1241b711fad40b2916a0
+        - ElementName: Object_SwitchGroup
+          ObjectType: 11
+          guid: 019cc9f4e731c744a0fe37b19b634758
+        - ElementName: Triangle_SW
+          ObjectType: 10
+          guid: 858f9d32e49ea2468586783144dde15d
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -136,11 +647,11 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 1602d098d0d91342b6b82b4cb4385967
     GuidInternal: 
-    m_lastTime: -8584951674451980084
+    m_lastTime: -8584951655442641838
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedFileSystemItemIds: 020000000300000012000000130000002400000025000000
+  ExpandedWaapiItemIds: 020000000300000012000000130000002400000025000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 
