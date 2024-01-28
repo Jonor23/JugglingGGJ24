@@ -17,7 +17,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="PaperPlane_SW" ID="{44776460-7B1C-4B13-989C-4936868420A5}"/>
+						<CurrentSwitchRef Name="BowlingBall_SW" ID="{39C1CC2C-A52A-4E31-BF01-EB7A07C7C036}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

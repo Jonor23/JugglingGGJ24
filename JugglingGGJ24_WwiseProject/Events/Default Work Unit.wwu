@@ -123,6 +123,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="BowlingBallCollision" ID="{376AE3BA-E0F8-4227-9089-50FBB757846D}">
+					<ChildrenList>
+						<Action Name="" ID="{FAFDE9CC-3DD7-4F72-9D83-49E109B54B46}" ShortID="999570682">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BowlingBall" ID="{CB34A286-A2E1-4F3F-BBF6-A3A1EFAF3028}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

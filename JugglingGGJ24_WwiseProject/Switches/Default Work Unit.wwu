@@ -14,6 +14,7 @@
 						<Switch Name="Bird_SW" ID="{774012DF-4748-42FB-972E-F51CD150A7FE}"/>
 						<Switch Name="Rocket_SW" ID="{60F02CFB-7C6E-4FA2-87EC-3DACE3E46DFB}"/>
 						<Switch Name="PaperPlane_SW" ID="{44776460-7B1C-4B13-989C-4936868420A5}"/>
+						<Switch Name="BowlingBall_SW" ID="{39C1CC2C-A52A-4E31-BF01-EB7A07C7C036}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
