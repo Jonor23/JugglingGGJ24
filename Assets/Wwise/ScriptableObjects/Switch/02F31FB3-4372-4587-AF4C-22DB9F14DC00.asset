@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a3b6796f911b7c4bb7a0167698f59d3, type: 3}
+  m_Name: 02F31FB3-4372-4587-AF4C-22DB9F14DC00
+  m_EditorClassIdentifier: 
+  objectName: Saloon_SW
+  id: 1358710794
+  guid: 02F31FB3-4372-4587-AF4C-22DB9F14DC00
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: b375845bd2c98ca45a2fb05a8e99552d, type: 2}
