@@ -69,5 +69,9 @@ public class Juggling_Item : MonoBehaviour
         Vector3 direction = transform.position - collision.transform.position;
         //a_RigidBody.AddForce(direction * Time.deltaTime * 2000);
         a_RigidBody.velocity = direction * Time.deltaTime * 50;
+        if(collision.tag == "Player")
+        {
+            a_Transform.parent.parent.Find("GameUI").GetComponent<GameUI>().AddScore(0.01f);
+        }
     }
 }

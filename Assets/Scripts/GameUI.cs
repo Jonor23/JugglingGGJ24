@@ -12,6 +12,9 @@ public class GameUI : MonoBehaviour
 
     private int timeLeft;
 
+    private Scrollbar performance_Bar;
+
+
     private List<Sprite> numbers;
 
 
@@ -26,10 +29,7 @@ public class GameUI : MonoBehaviour
         num1_Image = timer_Image.transform.Find("Num1").GetComponent<Image>();
         num2_Image = timer_Image.transform.Find("Num2").GetComponent<Image>();
 
-
-        timeLeft = 60;
-        StartCoroutine("TimeElapse");
-
+        performance_Bar = a_Transform.Find("Performance").GetComponent<Scrollbar>();
 
         numbers = new List<Sprite>();
         Sprite[] sprites = Resources.LoadAll<Sprite>("Numbers");
@@ -37,18 +37,35 @@ public class GameUI : MonoBehaviour
         {
             numbers.Add(sprites[i]);
         }
+
+        
+
+    }
+
+    private void OnEnable()
+    {
+        timeLeft = 60;
+        StartCoroutine("TimeElapse");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKey(KeyCode.J))
+        {
+            performance_Bar.size += 0.001f;
+        }
+        if (Input.GetKey(KeyCode.K))
+        {
+            performance_Bar.size -= 0.001f;
+        }
     }
 
     IEnumerator TimeElapse()
     {
         while(timeLeft > 0)
         {
+            //Debug.Log("Hello?");
             yield return new WaitForSeconds(1.0f);
             timeLeft = timeLeft - 1;
             TimeToImage(timeLeft);
@@ -62,5 +79,10 @@ public class GameUI : MonoBehaviour
         //Debug.Log(num1 + "  " + num2);
         num1_Image.sprite = numbers[num1];
         num2_Image.sprite = numbers[num2];
+    }
+
+    public void AddScore(float value)
+    {
+        performance_Bar.size += value;
     }
 }
