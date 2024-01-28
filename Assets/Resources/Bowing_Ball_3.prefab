@@ -165,6 +165,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96fa3707ec718b845be63ce39fd279b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 55900b8772eae0d4ebb03a64d3e9c503, type: 2}
   mass: 0
 --- !u!114 &2168501848124181393
 MonoBehaviour:
@@ -200,7 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc09b6357fb9c904bbc6bf5b7c21bd49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: d1bbb3b5f7e1664c
+  triggerList: d1bbb3b5
   useOtherObject: 0
   actionOnEventType: 0
   curveInterpolation: 4
