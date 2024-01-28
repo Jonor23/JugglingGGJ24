@@ -3349,6 +3349,156 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="JugglingBall" ID="{B9AE1FC1-C29C-4B55-B3CD-C9993367C728}" ShortID="620508777">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>33</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>1320</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{551AC4D2-9F55-4E3E-8555-3CD5C5F6E3E9}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="227"/>
+																	<Property Name="Min" Type="Real64" Value="-76"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="BowlingBall-001" ID="{484AC645-DB3A-4846-AEB0-4ED9F10D83DB}" ShortID="881308271">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BowlingBall-001" ID="{A9CAC04A-38A1-4751-BD4F-A94ED3F41FDF}">
+															<Language>SFX</Language>
+															<AudioFile>BowlingBall-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="448909528"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="BowlingBall-001" ID="{A9CAC04A-38A1-4751-BD4F-A94ED3F41FDF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BowlingBall-002" ID="{D5DE770C-D86A-476C-AF5F-BF23A1D362D6}" ShortID="27590875">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BowlingBall-002" ID="{F04693BB-5294-4CEC-B2D1-B65E89E5D09E}">
+															<Language>SFX</Language>
+															<AudioFile>BowlingBall-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="664875806"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="BowlingBall-002" ID="{F04693BB-5294-4CEC-B2D1-B65E89E5D09E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BowlingBall-003" ID="{7C3099EA-3B29-41B9-98BB-E04F1C7A80C1}" ShortID="890811506">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BowlingBall-003" ID="{58A12CAF-513E-4E2A-AC63-801B58FDF72A}">
+															<Language>SFX</Language>
+															<AudioFile>BowlingBall-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="207048404"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="BowlingBall-003" ID="{58A12CAF-513E-4E2A-AC63-801B58FDF72A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BowlingBall-004" ID="{FC211D9D-C331-43D0-9F60-3828D290EAE7}" ShortID="444535289">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BowlingBall-004" ID="{9E5E2633-A9D2-4226-A85C-72C260B3F3A0}">
+															<Language>SFX</Language>
+															<AudioFile>BowlingBall-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="983155238"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="BowlingBall-004" ID="{9E5E2633-A9D2-4226-A85C-72C260B3F3A0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BowlingBall-005" ID="{44784DCE-5742-49C7-8B9C-469DEE2BA3F1}" ShortID="703959579">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BowlingBall-005" ID="{3406D980-52CD-4097-BE96-01D140585894}">
+															<Language>SFX</Language>
+															<AudioFile>BowlingBall-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="647618796"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="BowlingBall-005" ID="{3406D980-52CD-4097-BE96-01D140585894}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
@@ -3375,6 +3525,9 @@
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Frog" ID="{92982BC0-EDD1-45D9-B81B-53777C75F403}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="JugglingBall" ID="{B9AE1FC1-C29C-4B55-B3CD-C9993367C728}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Rocket" ID="{7AE1C3EC-5482-4DB8-96DA-5AECA7A0E54A}"/>
@@ -3436,6 +3589,12 @@
 												<SwitchRef Name="Bird_SW" ID="{774012DF-4748-42FB-972E-F51CD150A7FE}"/>
 												<ItemList>
 													<ItemRef Name="Bird" ID="{FD29B570-EDF0-44FB-A48D-75EE4AE30894}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="JugglingBall_SW" ID="{9E2596EE-4F52-49F1-A5DF-153652A02782}"/>
+												<ItemList>
+													<ItemRef Name="JugglingBall" ID="{B9AE1FC1-C29C-4B55-B3CD-C9993367C728}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
