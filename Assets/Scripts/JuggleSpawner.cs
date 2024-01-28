@@ -35,14 +35,14 @@ public class JuggleSpawner : MonoBehaviour
     private IEnumerator SpawnerMovement()
     {
         //The two Spawn lines represent random Spawn and specific Spawn
-        //Currently spawning: Rocket
+        //Currently spawning: Random
         for(int i = 0; i < 20; i++)
         {
             spawner_Transform.Translate(new Vector2(100, 0));
             yield return new WaitForSeconds(1.0f);
             int length = All_Items.Instance.ItemList.Count;
-            //Spawn(All_Items.Instance.ItemList[Random.Range(0, length)]);
-            Spawn(All_Items.Instance.ItemList[7]);
+            Spawn(All_Items.Instance.ItemList[Random.Range(0, length)]);
+            //Spawn(All_Items.Instance.ItemList[7]);
             yield return new WaitForSeconds(1.5f);
         }       
     }
