@@ -230,6 +230,7 @@ GameObject:
   - component: {fileID: 168266212}
   - component: {fileID: 168266214}
   - component: {fileID: 168266215}
+  - component: {fileID: 168266216}
   m_Layer: 0
   m_Name: SoundUI
   m_TagString: Untagged
@@ -346,7 +347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a631eb8c4e1fd44f8cca8ba01a626ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: 
+  triggerList: d1bbb3b5cd2be4c0d96bb42af2d9e0ecf7f422d63f2ff36a9864aaa1fe6ae587049157203b35642dae8d9d44f7e1664c958ca0ea
   useOtherObject: 0
   data:
     idInternal: 0
@@ -379,6 +380,40 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 04673e70fe0f2784a978583e420a52f9, type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
+  LargeModePositions: []
+  multiPositionArray: []
+--- !u!114 &168266216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168266209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc09b6357fb9c904bbc6bf5b7c21bd49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 14c515e6c87d09848b373158a8a5687b, type: 2}
   useCallbacks: 0
   Callbacks: []
   playingId: 0
@@ -477,7 +512,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 168266210}
         m_TargetAssemblyTypeName: SoundUI, Assembly-CSharp
-        m_MethodName: click
+        m_MethodName: swap
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -489,7 +524,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 168266210}
         m_TargetAssemblyTypeName: SoundUI, Assembly-CSharp
-        m_MethodName: swap
+        m_MethodName: click
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

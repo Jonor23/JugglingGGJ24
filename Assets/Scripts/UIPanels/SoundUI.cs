@@ -19,11 +19,13 @@ public class SoundUI : MonoBehaviour
 
     public void click()
     {
+        Debug.Log("test");
         sound.Post(this.gameObject);
     }
 
     public void swap()
     {
+        Debug.Log("test");
         mySwitch.SetValue(this.gameObject);
     }
 }
