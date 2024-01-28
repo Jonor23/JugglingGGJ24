@@ -14,6 +14,13 @@
 						<Switch Name="Bird_SW" ID="{774012DF-4748-42FB-972E-F51CD150A7FE}"/>
 						<Switch Name="Rocket_SW" ID="{60F02CFB-7C6E-4FA2-87EC-3DACE3E46DFB}"/>
 						<Switch Name="PaperPlane_SW" ID="{44776460-7B1C-4B13-989C-4936868420A5}"/>
+						<Switch Name="BowlingBall_SW" ID="{39C1CC2C-A52A-4E31-BF01-EB7A07C7C036}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="AMB_SwitchGroup" ID="{8E10AD0E-FD06-491C-9C2D-E02BF42DA849}">
+					<ChildrenList>
+						<Switch Name="Saloon_SW" ID="{02F31FB3-4372-4587-AF4C-22DB9F14DC00}"/>
+						<Switch Name="OutdoorScene_SW" ID="{737DFC7D-DD02-4030-A67A-E33C90D757A0}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

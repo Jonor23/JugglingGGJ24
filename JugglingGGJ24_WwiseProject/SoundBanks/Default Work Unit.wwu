@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C64B995C-A424-41E3-BB94-54C24746D882}" SchemaVersion="110">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{C64B995C-A424-41E3-BB94-54C24746D882}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C64B995C-A424-41E3-BB94-54C24746D882}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Juggling_SoundBank" ID="{A9C76029-4A1A-4447-A930-6DABE4B3817E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="FrogCollision" ID="{8DC4EB22-232A-41EB-AD01-C89A33BE94A0}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RubberChickenCollision" ID="{1AC545E1-087D-41FA-B18B-0D6054D63BD1}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BowlingBallCollision" ID="{376AE3BA-E0F8-4227-9089-50FBB757846D}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Ambience" ID="{EDF3DFB6-2523-42BF-8C5E-81E52D0C748F}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="JugglingPinCollision" ID="{A010B47A-912F-42D1-9B2E-14615B3BDF8E}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RealChickenCollision" ID="{05DE1A08-9C72-4363-921D-061B8531EE15}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ambience" ID="{CF2644CE-EAEC-43D6-A50A-E1999A2D9BD5}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RocketCollision" ID="{8E7C2E1A-D6E9-45F7-94F2-488633E1B5EF}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="JellyCollision" ID="{6C561BB8-DA7E-4774-B6EA-CE00698B066C}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Interaction" ID="{BCA5BD15-D0E8-4804-BCE5-05226A819FC7}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PaperPlaneCollision" ID="{19951417-97E2-481E-ABA0-F210F917A165}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BirdCollision" ID="{655DC364-9F18-496B-8718-DBB6DFD846FB}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="HandCollision" ID="{A3D1F555-6CF9-4D05-BBB6-40659231A676}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TriangleCollision" ID="{5D35D958-9A2F-4E87-AFB2-98A9B794CF61}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 public class Juggler : MonoBehaviour
 {
+
+
+    [SerializeField]
+    private AK.Wwise.Event sound = null;
+
     private const int speed = 250;
     private const float armSpan = 160f;
     private Transform LeftArmBase;
@@ -63,5 +68,10 @@ public class Juggler : MonoBehaviour
         End.rotation = Quaternion.Slerp(End.rotation, Quaternion.Euler(0, 0, armEndRotation), 0.01f);
         Base.rotation = Quaternion.Slerp(Base.rotation, Quaternion.Euler(0, 0, armBaseRotation), 0.01f);
         Hand.rotation = Quaternion.Euler(0, 0, 0);
+    }
+
+    public void playHandSlap()
+    {
+        sound.Post(gameObject);
     }
 }

@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class Juggling_Item : MonoBehaviour
 {
-    
+
+    [SerializeField]
+    private AK.Wwise.Event sound = null;
+
     private string itemName;
     [SerializeField]
     private float mass;
@@ -69,9 +72,17 @@ public class Juggling_Item : MonoBehaviour
         Vector3 direction = transform.position - collision.transform.position;
         //a_RigidBody.AddForce(direction * Time.deltaTime * 2000);
         a_RigidBody.velocity = direction * Time.deltaTime * 50;
-        if(collision.tag == "Player")
+        sound.Post(this.gameObject);
+        if (collision.tag == "Player")
         {
             a_Transform.parent.parent.Find("GameUI").GetComponent<GameUI>().AddScore(0.01f);
+            Juggler juggler = FindObjectOfType<Juggler>();
+            juggler.playHandSlap();
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        sound.Post(this.gameObject);
     }
 }

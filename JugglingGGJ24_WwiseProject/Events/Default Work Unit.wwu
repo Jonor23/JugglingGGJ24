@@ -123,6 +123,57 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="BowlingBallCollision" ID="{376AE3BA-E0F8-4227-9089-50FBB757846D}">
+					<ChildrenList>
+						<Action Name="" ID="{FAFDE9CC-3DD7-4F72-9D83-49E109B54B46}" ShortID="999570682">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BowlingBall" ID="{CB34A286-A2E1-4F3F-BBF6-A3A1EFAF3028}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Interaction" ID="{BCA5BD15-D0E8-4804-BCE5-05226A819FC7}">
+					<ChildrenList>
+						<Action Name="" ID="{8E46DE17-1A5D-4254-A3FC-E87E4AC779B9}" ShortID="991067526">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Interaction" ID="{7C0E3720-0F10-4936-95E5-00BB0EE5F55E}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambience" ID="{CF2644CE-EAEC-43D6-A50A-E1999A2D9BD5}">
+					<ChildrenList>
+						<Action Name="" ID="{231AD563-3FEA-42AA-B3BF-942F796ACE5D}" ShortID="733208669">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Switch" ID="{12380704-CD20-4FD1-9259-209D36CFDBC3}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Ambience" ID="{EDF3DFB6-2523-42BF-8C5E-81E52D0C748F}">
+					<ChildrenList>
+						<Action Name="" ID="{2CE50607-4D94-41C1-AF32-2A2E0AF508D1}" ShortID="85933794">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Switch" ID="{12380704-CD20-4FD1-9259-209D36CFDBC3}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9980a7cf3f9a1054ea85de6ddd252ea7, type: 3}
+  m_Name: A3D1F555-6CF9-4D05-BBB6-40659231A676
+  m_EditorClassIdentifier: 
+  objectName: HandCollision
+  id: 3860318738
+  guid: A3D1F555-6CF9-4D05-BBB6-40659231A676
