@@ -1,0 +1,25 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3860318738	HandCollision			\Default Work Unit\HandCollision	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2071913860	Object_SwitchGroup			\Default Work Unit\Object_SwitchGroup	
+
+Switch	ID	Name	Switch Group			Notes
+	16724608	Jelly_SW	Object_SwitchGroup			
+	169923998	JugglingPin_SW	Object_SwitchGroup			
+	553221778	Triangle_SW	Object_SwitchGroup			
+	1227152183	RealChicken_SW	Object_SwitchGroup			
+	1848499500	Frog_SW	Object_SwitchGroup			
+	2766995314	PaperPlane_SW	Object_SwitchGroup			
+	3236973553	BowlingBall_SW	Object_SwitchGroup			
+	3472729409	RubberChicken_SW	Object_SwitchGroup			
+	3533229697	Bird_SW	Object_SwitchGroup			
+	3656468158	Rocket_SW	Object_SwitchGroup			
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	217637712	TriangleLFO			\Default Work Unit\TriangleLFO	
+	380253410	LFO_Random			\Default Work Unit\LFO_Random	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3605142646	Triangle_PitchShift	Wwise Pitch Shifter			
+

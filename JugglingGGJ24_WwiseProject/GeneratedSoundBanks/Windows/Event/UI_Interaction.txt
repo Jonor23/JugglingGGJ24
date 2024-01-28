@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	375339906	UI_Interaction			\Default Work Unit\UI_Interaction	
+
