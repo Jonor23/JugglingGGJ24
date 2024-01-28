@@ -11,19 +11,16 @@ public class RealChicken : MonoBehaviour
     void Start()
     {
         a_Transform = gameObject.transform;
+        a_RigidBody = gameObject.GetComponent<Rigidbody2D>();
         StartCoroutine("ChickFly");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     IEnumerator ChickFly()
     {
         while(true)
         {
+            //This Debug shall be replaced with code that triggers the sound
+            Debug.Log("Fly!");
             yield return new WaitForSeconds(3.0f);
             Vector2 direction = new Vector2(0, 0);
             switch(Random.Range(0,4))
@@ -41,7 +38,7 @@ public class RealChicken : MonoBehaviour
                     direction = Vector2.right;
                     break;
             }
-            a_RigidBody.velocity += direction * 5;
+            a_RigidBody.velocity += direction * 50;
         }
     }
 }

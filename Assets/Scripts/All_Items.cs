@@ -13,13 +13,13 @@ public class All_Items : MonoBehaviour
     private GameObject Bowing_Ball_1;
     private GameObject Bowing_Ball_2;
     private GameObject Bowing_Ball_3;
-
     private GameObject jelly;
     private GameObject paper_Plane;
     private GameObject real_Chicken;
     private GameObject squeaky_Chicken;
     private GameObject triangle;
     private GameObject triangle_Beater;
+    private GameObject rocket;
 
 
     public static All_Items Instance;
@@ -40,14 +40,13 @@ public class All_Items : MonoBehaviour
         Bowing_Ball_1 = Resources.Load<GameObject>("Bowing_Ball_1");
         Bowing_Ball_2 = Resources.Load<GameObject>("Bowing_Ball_2");
         Bowing_Ball_3 = Resources.Load<GameObject>("Bowing_Ball_3");
-
         jelly = Resources.Load<GameObject>("Jelly");
-        paper_Plane = Resources.Load<GameObject>("Paper_Plane");
+        paper_Plane = Resources.Load<GameObject>("PaperPlane");
         real_Chicken = Resources.Load<GameObject>("Real_Chicken");
         squeaky_Chicken = Resources.Load<GameObject>("Squeaky_Chicken");
         triangle = Resources.Load<GameObject>("Triangle");
         triangle_Beater = Resources.Load<GameObject>("Triangle_Beater");
-
+        rocket = Resources.Load<GameObject>("Rocket");
 
         itemList.Add(new Juggling_Item("juggling_Pin_Blue", juggling_Pin_Blue, 2));
         itemList.Add(new Juggling_Item("juggling_Pin_Green", juggling_Pin_Green, 2));
@@ -56,13 +55,13 @@ public class All_Items : MonoBehaviour
         itemList.Add(new Juggling_Item("Bowing_Ball_1", Bowing_Ball_1, 20));
         itemList.Add(new Juggling_Item("Bowing_Ball_2", Bowing_Ball_2, 20));
         itemList.Add(new Juggling_Item("Bowing_Ball_3", Bowing_Ball_3, 20));
-
         itemList.Add(new Juggling_Item("jelly", jelly, 4));
         itemList.Add(new Juggling_Item("paper_Plane", paper_Plane, 0.1f));
-        itemList.Add(new Juggling_Item("real_Chicken", real_Chicken, 0.5f, SpecialItems.RealChicken));
+        itemList.Add(new Juggling_Item("real_Chicken", real_Chicken, 0.5f));
         itemList.Add(new Juggling_Item("squeaky_Chicken", squeaky_Chicken, 3));
         itemList.Add(new Juggling_Item("triangle", triangle, 5));
         itemList.Add(new Juggling_Item("triangle_Beater", triangle_Beater, 2));
+        itemList.Add(new Juggling_Item("rocket", rocket, 10));
     }
 
     public Juggling_Item FindItemByName(string name)

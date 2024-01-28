@@ -42,27 +42,6 @@ public class Juggling_Item : MonoBehaviour
         this.mass = mass;
     }
 
-    public Juggling_Item(string itemName, GameObject obj, float mass, SpecialItems special)
-    {
-        this.itemName = itemName;
-        this.obj = obj;
-        this.mass = mass;
-        switch (special)
-        {
-            case SpecialItems.RealChicken:
-                gameObject.AddComponent<RealChicken>();
-                break;
-            case SpecialItems.Jelly:
-                gameObject.AddComponent<Jelly>();
-                break;
-            case SpecialItems.Rocket:
-                gameObject.AddComponent<Rocket>();
-                break;
-            default:
-                break;
-        }
-    }
-
 
     void Update()
     {
