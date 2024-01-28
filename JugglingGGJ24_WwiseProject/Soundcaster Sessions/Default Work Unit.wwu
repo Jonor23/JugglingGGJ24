@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9B19F8CF-DBAE-4271-98C1-7A8400129DC5}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{9B19F8CF-DBAE-4271-98C1-7A8400129DC5}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9B19F8CF-DBAE-4271-98C1-7A8400129DC5}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Juggling" ID="{00B36D21-D7EB-4854-9097-4B4CCC34607C}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Hand_Object_Blend" ID="{CA582D49-527E-46EC-A5BF-5F6B613BFC24}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="HandCollision" ID="{A3D1F555-6CF9-4D05-BBB6-40659231A676}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="PaperPlane_SW" ID="{44776460-7B1C-4B13-989C-4936868420A5}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
