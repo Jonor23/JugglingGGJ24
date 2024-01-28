@@ -299,6 +299,7 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="Triangle" ID="{48B8397D-1ACC-4A58-BE7E-4469168E062C}" ShortID="405858775">
 											<PropertyList>
+												<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 												<Property Name="Lowpass" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
@@ -310,6 +311,11 @@
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
+												</Property>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
 												</Property>
 												<Property Name="OverrideEffect" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
@@ -324,6 +330,11 @@
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -496,12 +507,18 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="RubberChicken" ID="{021E6FEF-03EA-4ED0-9CD7-2E5E8209FFE5}" ShortID="1044763558">
 											<PropertyList>
+												<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 												<Property Name="Lowpass" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{8006C602-3531-42D1-B6A3-0D1986E61302}"/>
 														</ModifierInfo>
 													</ModifierList>
+												</Property>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
 												</Property>
 												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 												<Property Name="Pitch" Type="int32">
@@ -518,6 +535,11 @@
 													</ModifierList>
 												</Property>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-3</Value>
@@ -954,6 +976,7 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Frog" ID="{92982BC0-EDD1-45D9-B81B-53777C75F403}" ShortID="364555909">
 											<PropertyList>
+												<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 												<Property Name="Lowpass" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
@@ -978,6 +1001,11 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
 												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
@@ -994,6 +1022,11 @@
 													</ModifierList>
 												</Property>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1206,6 +1239,7 @@
 										</RandomSequenceContainer>
 										<BlendContainer Name="RealChicken" ID="{58C5082A-189C-4685-A0C1-20D1EB517458}" ShortID="992552417">
 											<PropertyList>
+												<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 												<Property Name="Lowpass" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
@@ -1217,6 +1251,11 @@
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
+												</Property>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
 												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
@@ -1230,6 +1269,16 @@
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -1646,6 +1695,7 @@
 										</BlendContainer>
 										<RandomSequenceContainer Name="Jelly" ID="{BCF13E78-DCA3-4FE7-8E26-3653E5B53A7F}" ShortID="652291665">
 											<PropertyList>
+												<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 												<Property Name="Lowpass" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
@@ -1669,6 +1719,11 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
 												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
@@ -1684,6 +1739,11 @@
 													</ModifierList>
 												</Property>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1852,12 +1912,18 @@
 										</RandomSequenceContainer>
 										<BlendContainer Name="Bird" ID="{FD29B570-EDF0-44FB-A48D-75EE4AE30894}" ShortID="859013619">
 											<PropertyList>
+												<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 												<Property Name="Lowpass" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{CBBD2E3E-DB56-4B59-8C72-D7BEC8F7B112}"/>
 														</ModifierInfo>
 													</ModifierList>
+												</Property>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
 												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
@@ -1871,6 +1937,11 @@
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -2247,12 +2318,18 @@
 														<Value>13</Value>
 													</ValueList>
 												</Property>
+												<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 												<Property Name="Lowpass" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{12D3529D-0299-45AD-9334-CD9547A31BB4}"/>
 														</ModifierInfo>
 													</ModifierList>
+												</Property>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
 												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
@@ -2266,6 +2343,11 @@
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -2418,9 +2500,20 @@
 										</RandomSequenceContainer>
 										<BlendContainer Name="Rocket" ID="{7AE1C3EC-5482-4DB8-96DA-5AECA7A0E54A}" ShortID="110253568">
 											<PropertyList>
+												<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-3</Value>
+														<Value>-5</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -2450,6 +2543,11 @@
 															</ModifierList>
 														</Property>
 														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-2</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -2932,6 +3030,12 @@
 														<Value>52</Value>
 													</ValueList>
 												</Property>
+												<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -2945,9 +3049,14 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>4</Value>
+														<Value>6</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
