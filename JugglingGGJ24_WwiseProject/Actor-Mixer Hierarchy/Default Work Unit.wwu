@@ -6,7 +6,7 @@
 				<ActorMixer Name="Juggling" ID="{D93D5B27-AD99-4A06-84A3-2B99079149E3}" ShortID="696732665">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+							<ObjectRef Name="JugglingConversionSettings" ID="{CA9684BB-9CA2-4372-8739-04F8862B8D31}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
@@ -3461,7 +3461,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+							<ObjectRef Name="JugglingConversionSettings" ID="{CA9684BB-9CA2-4372-8739-04F8862B8D31}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
@@ -3662,7 +3662,7 @@
 				<ActorMixer Name="UI" ID="{33F1D2E9-E7ED-4152-BA53-95E7F96D32F0}" ShortID="700487454">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+							<ObjectRef Name="JugglingConversionSettings" ID="{CA9684BB-9CA2-4372-8739-04F8862B8D31}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>

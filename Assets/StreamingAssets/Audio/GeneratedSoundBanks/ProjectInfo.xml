@@ -3,11 +3,10 @@
 	<Project Name="JugglingGGJ24_WwiseProject" GUID="{D627E329-F302-41D0-8C00-6579B7F693DC}" Generator="2022.1.9.8365"/>
 	<CacheRoot>../../../../JugglingGGJ24_WwiseProject/.cache</CacheRoot>
 	<Platforms>
-		<Platform Name="Mac" GUID="{A714582F-60F4-45E9-88ED-0DF75E8673EC}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../JugglingGGJ24_WwiseProject/GeneratedSoundBanks/Mac"/>
 		<Platform Name="Windows" GUID="{127861BA-1CFF-4C9F-A144-F2E9E96B80D9}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../JugglingGGJ24_WwiseProject/GeneratedSoundBanks/Windows"/>
 	</Platforms>
 	<Languages>
 		<Language Name="English(US)" Id="684519430" GUID="{F21BD9E7-59EB-4241-BADD-730674CD12D8}" Default="true" UseAsStandIn="true"/>
 	</Languages>
-	<FileHash>{11DC8A4C-0E82-51A5-E384-B59555F8B12A}</FileHash>
+	<FileHash>{8259730A-5FC9-337E-B542-07DD2F5798DA}</FileHash>
 </ProjectInfo>
