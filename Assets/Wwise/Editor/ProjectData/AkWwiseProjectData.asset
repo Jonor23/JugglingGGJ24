@@ -83,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 5c994bc624a4e341bb9454c24746d882
     GuidInternal: 
-    m_lastTime: -8584951544172660750
+    m_lastTime: -8584951516651966477
     List:
     - name: Juggling_SoundBank
       guid: 2960c7a91a4a4744a9306dabe4b3817e
@@ -213,8 +213,8 @@ MonoBehaviour:
         guid: 0d987cea5b3b3b4db4d4326e6fe192b0
       Path: Events\Default Work Unit\JugglingBallCollision
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.13668565
+      minDuration: 0.11072181
     - name: JugglingPinCollision
       guid: 7ab410a02f91d1429b2e14615b3bdf8e
       id: 1538471339
