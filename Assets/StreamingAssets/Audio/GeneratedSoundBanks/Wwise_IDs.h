@@ -18,6 +18,7 @@ namespace AK
         static const AkUniqueID FROGCOLLISION = 3433417529U;
         static const AkUniqueID HANDCOLLISION = 3860318738U;
         static const AkUniqueID JELLYCOLLISION = 2980418053U;
+        static const AkUniqueID JUGGLINGBALLCOLLISION = 1503650469U;
         static const AkUniqueID JUGGLINGPINCOLLISION = 1538471339U;
         static const AkUniqueID PAPERPLANECOLLISION = 3904978471U;
         static const AkUniqueID PLAY_AMBIENCE = 278617630U;
