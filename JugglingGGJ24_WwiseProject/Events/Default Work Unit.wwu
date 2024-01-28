@@ -13,6 +13,9 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{B6318A05-4D81-4E59-BFCF-8CFBCCC97B77}" ShortID="217532401">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Object_SwitchContainer" ID="{CCC8C5AD-C032-4522-8A51-396082B1DD83}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>

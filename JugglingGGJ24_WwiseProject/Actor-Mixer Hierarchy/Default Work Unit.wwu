@@ -299,11 +299,6 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="Triangle" ID="{48B8397D-1ACC-4A58-BE7E-4469168E062C}" ShortID="405858775">
 											<PropertyList>
-												<Property Name="InitialDelay" Type="Real64">
-													<ValueList>
-														<Value>0.1</Value>
-													</ValueList>
-												</Property>
 												<Property Name="Lowpass" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
@@ -501,11 +496,6 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="RubberChicken" ID="{021E6FEF-03EA-4ED0-9CD7-2E5E8209FFE5}" ShortID="1044763558">
 											<PropertyList>
-												<Property Name="InitialDelay" Type="Real64">
-													<ValueList>
-														<Value>0.2</Value>
-													</ValueList>
-												</Property>
 												<Property Name="Lowpass" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
@@ -964,11 +954,6 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Frog" ID="{92982BC0-EDD1-45D9-B81B-53777C75F403}" ShortID="364555909">
 											<PropertyList>
-												<Property Name="InitialDelay" Type="Real64">
-													<ValueList>
-														<Value>0.2</Value>
-													</ValueList>
-												</Property>
 												<Property Name="Lowpass" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
@@ -994,6 +979,7 @@
 													</ModifierList>
 												</Property>
 												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -1257,11 +1243,6 @@
 											<ChildrenList>
 												<RandomSequenceContainer Name="ChickenSquawk" ID="{48C778C5-D6CD-4279-842E-D48FE0F78A6E}" ShortID="438610170">
 													<PropertyList>
-														<Property Name="InitialDelay" Type="Real64">
-															<ValueList>
-																<Value>0.1</Value>
-															</ValueList>
-														</Property>
 														<Property Name="Lowpass" Type="int16">
 															<ModifierList>
 																<ModifierInfo>
@@ -1665,11 +1646,6 @@
 										</BlendContainer>
 										<RandomSequenceContainer Name="Jelly" ID="{BCF13E78-DCA3-4FE7-8E26-3653E5B53A7F}" ShortID="652291665">
 											<PropertyList>
-												<Property Name="InitialDelay" Type="Real64">
-													<ValueList>
-														<Value>0.1</Value>
-													</ValueList>
-												</Property>
 												<Property Name="Lowpass" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
@@ -2271,11 +2247,6 @@
 														<Value>13</Value>
 													</ValueList>
 												</Property>
-												<Property Name="InitialDelay" Type="Real64">
-													<ValueList>
-														<Value>0.2</Value>
-													</ValueList>
-												</Property>
 												<Property Name="Lowpass" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
@@ -2445,6 +2416,662 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<BlendContainer Name="Rocket" ID="{7AE1C3EC-5482-4DB8-96DA-5AECA7A0E54A}" ShortID="110253568">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="RocketClang" ID="{FAC434E2-C428-4700-BCC1-79D3E6949ABD}" ShortID="60930725">
+													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{F65E98E0-C32C-43C7-B3F8-EE03176BCC66}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="354"/>
+																			<Property Name="Min" Type="Real64" Value="-51"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="RocketClang-001" ID="{15ADCDAB-5BD2-463B-8562-EC1810144FD3}" ShortID="955085427">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="RocketClang-001" ID="{28C77B44-EB26-426A-85CB-2E62ECCA99DB}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.011224238773"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>RocketClang-001.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1067936982"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="RocketClang-001" ID="{28C77B44-EB26-426A-85CB-2E62ECCA99DB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="RocketClang-002" ID="{A6101FAA-871C-4CEE-BAE1-3D519CED5995}" ShortID="941776829">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="RocketClang-002" ID="{B154BE69-B38D-4F33-83D9-0AD7E4DE93E7}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.00718893895913471"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.00718893895913471"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>RocketClang-002.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1052488000"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="RocketClang-002" ID="{B154BE69-B38D-4F33-83D9-0AD7E4DE93E7}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="RocketClang-003" ID="{46FD668A-DD92-435C-8CEC-52BD8A16C645}" ShortID="948223341">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="RocketClang-003" ID="{CEAEE133-9A03-45AC-BB34-0A6913FE107C}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00587597282877905"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.00587597282877905"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>RocketClang-003.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="771702802"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="RocketClang-003" ID="{CEAEE133-9A03-45AC-BB34-0A6913FE107C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="RocketClang-004" ID="{551E9C16-D56C-4E16-8306-14DB42635B6B}" ShortID="691757476">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="RocketClang-004" ID="{306ACFB3-FDF0-4745-82DD-5C7397D7F6A8}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0168781116382593"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0189878755930416"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>RocketClang-004.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="584363499"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="RocketClang-004" ID="{306ACFB3-FDF0-4745-82DD-5C7397D7F6A8}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="RocketClang-005" ID="{0A5A331C-50F8-4B27-BA26-9BAA55B5A03C}" ShortID="437034769">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="RocketClang-005" ID="{5A23A31B-0FF4-4F5A-8B5F-336E3E39A455}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0122317443582599"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0448497293136197"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>RocketClang-005.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="393838694"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="RocketClang-005" ID="{5A23A31B-0FF4-4F5A-8B5F-336E3E39A455}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="RocketClang-006" ID="{CFDDB846-4443-458B-9E42-7F71D100BACE}" ShortID="793963305">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="RocketClang-006" ID="{1EB62044-63DA-401B-8C30-56ECCA259EE0}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0258197320748718"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.551603367054079"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.532825380090535"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>RocketClang-006.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="963337792"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="RocketClang-006" ID="{1EB62044-63DA-401B-8C30-56ECCA259EE0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="RocketClang-007" ID="{76C7740C-2226-4F0D-88FA-CE670BBB8DC3}" ShortID="974395976">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="RocketClang-007" ID="{D86BC265-0F28-4CA7-A996-AA0A2E1BC590}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00101814170560266"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0351610144672875"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>RocketClang-007.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="522583155"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="RocketClang-007" ID="{D86BC265-0F28-4CA7-A996-AA0A2E1BC590}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="RocketClang-008" ID="{FE4BF221-1F49-4C0B-97E2-8ECB414DDE37}" ShortID="155943437">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="RocketClang-008" ID="{ED207703-BD20-49C3-84DD-096930CE537E}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00914138447506924"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.137120767126039"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>RocketClang-008.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="875760030"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="RocketClang-008" ID="{ED207703-BD20-49C3-84DD-096930CE537E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="RocketZap" ID="{72E553A8-F7F9-4CD8-929A-34D44FA283F6}" ShortID="870672163">
+													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>0.1</Value>
+															</ValueList>
+														</Property>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{F24E9112-8208-4E4F-95C5-91856E268F37}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="682"/>
+																			<Property Name="Min" Type="Real64" Value="-227"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+														<Property Name="Volume" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{5B68C2D7-6C45-431B-86E6-550D0C5BBA08}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="28"/>
+																			<Property Name="Min" Type="Real64" Value="-35"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="RocketZap-001" ID="{7E590E23-9389-43D7-9F9B-DFA891B9FCBF}" ShortID="66959856">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="RocketZap-001" ID="{732C0CB2-0031-4F1C-9477-5D0D3ABA3B74}">
+																	<Language>SFX</Language>
+																	<AudioFile>RocketZap-001.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="208254579"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="RocketZap-001" ID="{732C0CB2-0031-4F1C-9477-5D0D3ABA3B74}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="RocketZap-002" ID="{6268F464-2499-4F2B-AD4E-CCA1278817BC}" ShortID="462686379">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="RocketZap-002" ID="{7BC0E8D0-A2BD-4CE7-B0E2-3DF325E1DB32}">
+																	<Language>SFX</Language>
+																	<AudioFile>RocketZap-002.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1048032111"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="RocketZap-002" ID="{7BC0E8D0-A2BD-4CE7-B0E2-3DF325E1DB32}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="RocketZap-003" ID="{F7BB0510-FACE-4600-9563-9A74760EB391}" ShortID="827847941">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="RocketZap-003" ID="{1670A804-A5A5-4D06-AB2A-4208A4FC988F}">
+																	<Language>SFX</Language>
+																	<AudioFile>RocketZap-003.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="97882844"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="RocketZap-003" ID="{1670A804-A5A5-4D06-AB2A-4208A4FC988F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="RocketZap-004" ID="{47153C68-79C3-4107-98F5-81F96D24401F}" ShortID="211076205">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="RocketZap-004" ID="{670C506F-1A9C-4690-BB1F-2034610EE731}">
+																	<Language>SFX</Language>
+																	<AudioFile>RocketZap-004.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1026563754"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="RocketZap-004" ID="{670C506F-1A9C-4690-BB1F-2034610EE731}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="RocketZap-005" ID="{DD5CE3D5-FFE3-4531-AFDF-A1AD9DB6FBF0}" ShortID="4673577">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="RocketZap-005" ID="{BECE6C84-1803-473F-B1BC-9A64F935CEFC}">
+																	<Language>SFX</Language>
+																	<AudioFile>RocketZap-005.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="6407671"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="RocketZap-005" ID="{BECE6C84-1803-473F-B1BC-9A64F935CEFC}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="RocketZap-006" ID="{C30DE598-C3E8-460A-B664-45113ECDFABC}" ShortID="88622467">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="RocketZap-006" ID="{530B7D64-D49C-4AAB-8D96-DBE9E43200BA}">
+																	<Language>SFX</Language>
+																	<AudioFile>RocketZap-006.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="787012307"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="RocketZap-006" ID="{530B7D64-D49C-4AAB-8D96-DBE9E43200BA}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="RocketZap-007" ID="{991C31E6-9687-42FC-8239-3245C4028C25}" ShortID="952993488">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="RocketZap-007" ID="{5443E0B9-FB86-4E35-A3DC-0453FDD47C16}">
+																	<Language>SFX</Language>
+																	<AudioFile>RocketZap-007.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="181035579"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="RocketZap-007" ID="{5443E0B9-FB86-4E35-A3DC-0453FDD47C16}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="RocketZap-008" ID="{1C0F2E5E-0B0B-4A69-BB39-E8305E8C762B}" ShortID="793969315">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="RocketZap-008" ID="{EEBC37C4-6D94-4906-9F82-A5E9E0E0967F}">
+																	<Language>SFX</Language>
+																	<AudioFile>RocketZap-008.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="653886010"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="RocketZap-008" ID="{EEBC37C4-6D94-4906-9F82-A5E9E0E0967F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="RocketZap-009" ID="{C8FF960F-334A-434E-A8BA-873D7FCE7AA4}" ShortID="1024814412">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="RocketZap-009" ID="{9177915A-9FCB-455A-A92B-B0485AE35F19}">
+																	<Language>SFX</Language>
+																	<AudioFile>RocketZap-009.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="604652303"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="RocketZap-009" ID="{9177915A-9FCB-455A-A92B-B0485AE35F19}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
+										<RandomSequenceContainer Name="PaperPlane" ID="{DC040865-1849-4467-B48E-F99A8CC150ED}" ShortID="499342783">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>52</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{17ACD3EF-D1B3-439A-815A-A44294454187}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="682"/>
+																	<Property Name="Min" Type="Real64" Value="-25"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PaperPlane-001" ID="{6D87F3AC-45FC-448D-AA5B-5C88D9D4917D}" ShortID="893094317">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PaperPlane-001" ID="{A931BDA8-7893-4276-B3FE-33D46F1B0CEE}">
+															<Language>SFX</Language>
+															<AudioFile>PaperPlane-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="516315720"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PaperPlane-001" ID="{A931BDA8-7893-4276-B3FE-33D46F1B0CEE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PaperPlane-002" ID="{9D341809-BB78-4C87-8CAE-C81E89D9186F}" ShortID="425919934">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PaperPlane-002" ID="{E70CE665-FE40-4032-B22C-7D685583D4D5}">
+															<Language>SFX</Language>
+															<AudioFile>PaperPlane-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="598228170"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PaperPlane-002" ID="{E70CE665-FE40-4032-B22C-7D685583D4D5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PaperPlane-003" ID="{57BC0743-0631-4CDE-A14A-18D9E24991B8}" ShortID="39273895">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PaperPlane-003" ID="{98C32271-8732-45BD-845E-3B3338869607}">
+															<Language>SFX</Language>
+															<AudioFile>PaperPlane-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="31019644"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PaperPlane-003" ID="{98C32271-8732-45BD-845E-3B3338869607}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PaperPlane-004" ID="{910292A5-D708-45C3-8565-9E959F677787}" ShortID="587387656">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PaperPlane-004" ID="{9EBABC65-CB9A-4423-8EC7-8301D21248FD}">
+															<Language>SFX</Language>
+															<AudioFile>PaperPlane-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="257203075"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PaperPlane-004" ID="{9EBABC65-CB9A-4423-8EC7-8301D21248FD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PaperPlane-005" ID="{72E946AB-07A7-487C-8FD8-D1AA172BD102}" ShortID="415471484">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5B70C116-01B9-4CE1-B4EF-42C9713379E8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30C73AC2-3B4E-47DE-8D60-65F3561F1071}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PaperPlane-005" ID="{716E705D-3BE4-4A52-832D-1E3202DEB2B8}">
+															<Language>SFX</Language>
+															<AudioFile>PaperPlane-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="200990497"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PaperPlane-005" ID="{716E705D-3BE4-4A52-832D-1E3202DEB2B8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
@@ -2453,6 +3080,9 @@
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="JugglingPin" ID="{45398752-612E-4674-9B08-D4CD62957533}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="PaperPlane" ID="{DC040865-1849-4467-B48E-F99A8CC150ED}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Bird" ID="{FD29B570-EDF0-44FB-A48D-75EE4AE30894}"/>
@@ -2465,6 +3095,9 @@
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Frog" ID="{92982BC0-EDD1-45D9-B81B-53777C75F403}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Rocket" ID="{7AE1C3EC-5482-4DB8-96DA-5AECA7A0E54A}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="RubberChicken" ID="{021E6FEF-03EA-4ED0-9CD7-2E5E8209FFE5}"/>
@@ -2490,6 +3123,12 @@
 												</ItemList>
 											</Grouping>
 											<Grouping>
+												<SwitchRef Name="PaperPlane_SW" ID="{44776460-7B1C-4B13-989C-4936868420A5}"/>
+												<ItemList>
+													<ItemRef Name="PaperPlane" ID="{DC040865-1849-4467-B48E-F99A8CC150ED}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
 												<SwitchRef Name="Jelly_SW" ID="{F53F067F-5297-49A4-9030-BA9897E3C0F4}"/>
 												<ItemList>
 													<ItemRef Name="Jelly" ID="{BCF13E78-DCA3-4FE7-8E26-3653E5B53A7F}"/>
@@ -2511,6 +3150,12 @@
 												<SwitchRef Name="Bird_SW" ID="{774012DF-4748-42FB-972E-F51CD150A7FE}"/>
 												<ItemList>
 													<ItemRef Name="Bird" ID="{FD29B570-EDF0-44FB-A48D-75EE4AE30894}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Rocket_SW" ID="{60F02CFB-7C6E-4FA2-87EC-3DACE3E46DFB}"/>
+												<ItemList>
+													<ItemRef Name="Rocket" ID="{7AE1C3EC-5482-4DB8-96DA-5AECA7A0E54A}"/>
 												</ItemList>
 											</Grouping>
 										</GroupingList>

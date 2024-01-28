@@ -17,7 +17,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="RealChicken_SW" ID="{B5190900-E8E0-4983-95BD-34F5DB6340C0}"/>
+						<CurrentSwitchRef Name="PaperPlane_SW" ID="{44776460-7B1C-4B13-989C-4936868420A5}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
