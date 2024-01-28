@@ -43,6 +43,8 @@ public class EndUI : MonoBehaviour
 
     public void DisplayWin()
     {
+        Debug.Log(judgement_Image.name);
+        Debug.Log(success_judge.name);
         judgement_Image.sprite = success_judge;
         outcome_Image.sprite = win_Outcome;
     }

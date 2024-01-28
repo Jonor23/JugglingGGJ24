@@ -41,7 +41,7 @@ public class All_Items : MonoBehaviour
         Bowing_Ball_2 = Resources.Load<GameObject>("Bowing_Ball_2");
         Bowing_Ball_3 = Resources.Load<GameObject>("Bowing_Ball_3");
         jelly = Resources.Load<GameObject>("Jelly");
-        paper_Plane = Resources.Load<GameObject>("PaperPlane");
+        paper_Plane = Resources.Load<GameObject>("Paper_Plane");
         real_Chicken = Resources.Load<GameObject>("Real_Chicken");
         squeaky_Chicken = Resources.Load<GameObject>("Squeaky_Chicken");
         triangle = Resources.Load<GameObject>("Triangle");

@@ -6,6 +6,7 @@ public class JuggleSpawner : MonoBehaviour
 {
     private Transform a_Transform;
     private Transform spawner_Transform;
+    private Vector3 spawner_Pos;
 
     private GameObject juggling_Pin_Blue;
     private GameObject juggling_Pin_Green;
@@ -15,6 +16,7 @@ public class JuggleSpawner : MonoBehaviour
     {
         a_Transform = gameObject.transform;
         spawner_Transform = a_Transform.Find("Spawner");
+        spawner_Pos = spawner_Transform.position;
 
         juggling_Pin_Blue = Resources.Load<GameObject>("Juggling_Pin_Blue");
         juggling_Pin_Green = Resources.Load<GameObject>("Juggling_Pin_Green");
@@ -24,9 +26,22 @@ public class JuggleSpawner : MonoBehaviour
         StartCoroutine("SpawnerMovement");
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
+        StopCoroutine("SpawnerMovement");
+    }
+
+    private void OnEnable()
+    {
+        StartCoroutine("SpawnerMovement");
+        spawner_Transform.position = spawner_Pos;
+        foreach (Transform child in a_Transform.GetComponentsInChildren<Transform>())
+        {
+            if(child.name == "Item")
+            {
+                Destroy(child.gameObject);
+            }
+        }
     }
 
     /// <summary>
@@ -64,12 +79,14 @@ public class JuggleSpawner : MonoBehaviour
     {
         Juggling_Item jItem = All_Items.Instance.FindItemByName(ObjectName);
         GameObject go = Instantiate(jItem.Obj, spawner_Transform.position, Quaternion.identity, a_Transform);
+        go.name = "Item";
         go.GetComponent<Juggling_Item>().Mass = jItem.Mass;
     }
 
     private void Spawn(Juggling_Item jItem)
     {
         GameObject go = Instantiate(jItem.Obj, spawner_Transform.position, Quaternion.identity, a_Transform);
+        go.name = "Item";
         go.GetComponent<Juggling_Item>().Mass = jItem.Mass;
     }
 }

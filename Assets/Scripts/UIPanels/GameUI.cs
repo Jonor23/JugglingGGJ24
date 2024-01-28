@@ -44,8 +44,8 @@ public class GameUI : MonoBehaviour
         {
             numbers.Add(sprites[i]);
         }
+        StartCoroutine("TimeElapse");
 
-        
 
     }
 
@@ -81,7 +81,11 @@ public class GameUI : MonoBehaviour
         }
         gameStop = true;
         a_EndPanel.gameObject.SetActive(true);
-        a_EndPanel.GetComponent<EndUI>().DisplayLost();
+        if(timeLeft <= 0)
+        {
+            a_EndPanel.GetComponent<EndUI>().DisplayLost();
+        }
+        
     }
 
     private void TimeToImage(int time)
