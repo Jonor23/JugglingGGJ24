@@ -34,7 +34,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="BowlingBall_SW" ID="{39C1CC2C-A52A-4E31-BF01-EB7A07C7C036}"/>
+						<CurrentSwitchRef Name="Bird_SW" ID="{774012DF-4748-42FB-972E-F51CD150A7FE}"/>
 						<CurrentSwitchRef Name="OutdoorScene_SW" ID="{737DFC7D-DD02-4030-A67A-E33C90D757A0}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
