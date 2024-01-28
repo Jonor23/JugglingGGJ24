@@ -11,6 +11,24 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID BIRDCOLLISION = 239793012U;
+        static const AkUniqueID BOWLINGBALLCOLLISION = 1944248036U;
+        static const AkUniqueID FROGCOLLISION = 3433417529U;
+        static const AkUniqueID HANDCOLLISION = 3860318738U;
+        static const AkUniqueID JELLYCOLLISION = 2980418053U;
+        static const AkUniqueID JUGGLINGPINCOLLISION = 1538471339U;
+        static const AkUniqueID PAPERPLANECOLLISION = 3904978471U;
+        static const AkUniqueID PLAY_AMBIENCE = 278617630U;
+        static const AkUniqueID REALCHICKENCOLLISION = 826343242U;
+        static const AkUniqueID ROCKETCOLLISION = 1684680715U;
+        static const AkUniqueID RUBBERCHICKENCOLLISION = 3369665588U;
+        static const AkUniqueID STOP_AMBIENCE = 2477713992U;
+        static const AkUniqueID TRIANGLECOLLISION = 2124973191U;
+        static const AkUniqueID UI_INTERACTION = 375339906U;
+    } // namespace EVENTS
+
     namespace SWITCHES
     {
         namespace AMB_SWITCHGROUP
