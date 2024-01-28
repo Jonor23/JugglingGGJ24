@@ -18,6 +18,7 @@
 						<ObjectRef Name="PaperPlaneCollision" ID="{19951417-97E2-481E-ABA0-F210F917A165}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="BirdCollision" ID="{655DC364-9F18-496B-8718-DBB6DFD846FB}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="HandCollision" ID="{A3D1F555-6CF9-4D05-BBB6-40659231A676}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="JugglingBallCollision" ID="{EA7C980D-3B5B-4D3B-B4D4-326E6FE192B0}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TriangleCollision" ID="{5D35D958-9A2F-4E87-AFB2-98A9B794CF61}" WorkUnitID="{066CBCF5-08D2-40BB-9402-882C5C06634B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

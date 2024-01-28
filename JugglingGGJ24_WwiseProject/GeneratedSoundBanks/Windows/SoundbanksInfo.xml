@@ -60,7 +60,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1712459862" Type="User" Language="SFX" Hash="{9E1E51F0-B9B0-283B-4D1D-91E5F86E2CFB}">
+		<SoundBank Id="1712459862" Type="User" Language="SFX" Hash="{A0BBC1F5-3A28-EB37-5226-55417624EFCD}">
 			<ShortName>Juggling_SoundBank</ShortName>
 			<Path>Juggling_SoundBank.bnk</Path>
 			<Media>
@@ -589,6 +589,18 @@
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
 					</AuxBusRefs>
 				</Event>
+				<Event Id="1503650469" Name="JugglingBallCollision" DurationType="OneShot" DurationMin="0.11072181" DurationMax="0.13668565">
+					<MediaRefs>
+						<MediaRef Id="207048404"/>
+						<MediaRef Id="448909528"/>
+						<MediaRef Id="647618796"/>
+						<MediaRef Id="664875806"/>
+						<MediaRef Id="983155238"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
+				</Event>
 				<Event Id="1538471339" Name="JugglingPinCollision" DurationType="OneShot" DurationMin="0.38560322" DurationMax="0.5851029">
 					<MediaRefs>
 						<MediaRef Id="28902410"/>
@@ -753,5 +765,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{156C36B1-C8B6-74FD-F227-DBA5AAAC5E8F}</FileHash>
+	<FileHash>{3182193F-E626-C9F4-83B3-8A9C5D645750}</FileHash>
 </SoundBanksInfo>

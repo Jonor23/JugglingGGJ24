@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	278617630	Play_Ambience			\Default Work Unit\Play_Ambience	
 	375339906	UI_Interaction			\Default Work Unit\UI_Interaction	
 	826343242	RealChickenCollision			\Default Work Unit\RealChickenCollision	
+	1503650469	JugglingBallCollision			\Default Work Unit\JugglingBallCollision	
 	1538471339	JugglingPinCollision			\Default Work Unit\JugglingPinCollision	
 	1684680715	RocketCollision			\Default Work Unit\RocketCollision	
 	1944248036	BowlingBallCollision			\Default Work Unit\BowlingBallCollision	
