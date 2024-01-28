@@ -15,6 +15,7 @@
 						<Switch Name="Rocket_SW" ID="{60F02CFB-7C6E-4FA2-87EC-3DACE3E46DFB}"/>
 						<Switch Name="PaperPlane_SW" ID="{44776460-7B1C-4B13-989C-4936868420A5}"/>
 						<Switch Name="BowlingBall_SW" ID="{39C1CC2C-A52A-4E31-BF01-EB7A07C7C036}"/>
+						<Switch Name="JugglingBall_SW" ID="{9E2596EE-4F52-49F1-A5DF-153652A02782}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="AMB_SwitchGroup" ID="{8E10AD0E-FD06-491C-9C2D-E02BF42DA849}">

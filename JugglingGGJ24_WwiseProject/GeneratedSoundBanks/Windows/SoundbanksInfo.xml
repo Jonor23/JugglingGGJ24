@@ -44,6 +44,7 @@
 						<Switch Id="553221778" Name="Triangle_SW"/>
 						<Switch Id="1227152183" Name="RealChicken_SW"/>
 						<Switch Id="1848499500" Name="Frog_SW"/>
+						<Switch Id="2526958944" Name="JugglingBall_SW"/>
 						<Switch Id="2766995314" Name="PaperPlane_SW"/>
 						<Switch Id="3236973553" Name="BowlingBall_SW"/>
 						<Switch Id="3472729409" Name="RubberChicken_SW"/>
@@ -59,7 +60,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1712459862" Type="User" Language="SFX" Hash="{24E2C014-665C-45FD-6CF3-591BA167B048}">
+		<SoundBank Id="1712459862" Type="User" Language="SFX" Hash="{9E1E51F0-B9B0-283B-4D1D-91E5F86E2CFB}">
 			<ShortName>Juggling_SoundBank</ShortName>
 			<Path>Juggling_SoundBank.bnk</Path>
 			<Media>
@@ -558,7 +559,7 @@
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="3860318738" Name="HandCollision" DurationType="OneShot" DurationMin="0.25834468" DurationMax="4.2333345">
+				<Event Id="3860318738" Name="HandCollision" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.25834468" DurationMax="0.36723357">
 					<MediaRefs>
 						<MediaRef Id="33260571"/>
 						<MediaRef Id="141291529"/>
@@ -573,160 +574,6 @@
 					<AuxBusRefs>
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
 					</AuxBusRefs>
-					<SwitchContainers>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2071913860" Id="1227152183"/>
-							<MediaRefs>
-								<MediaRef Id="19261080"/>
-								<MediaRef Id="174351030"/>
-								<MediaRef Id="198675104"/>
-								<MediaRef Id="217600973"/>
-								<MediaRef Id="239708290"/>
-								<MediaRef Id="457448647"/>
-								<MediaRef Id="461033440"/>
-								<MediaRef Id="655325270"/>
-								<MediaRef Id="721301540"/>
-								<MediaRef Id="800142626"/>
-								<MediaRef Id="925791208"/>
-								<MediaRef Id="929192786"/>
-								<MediaRef Id="995332943"/>
-								<MediaRef Id="1023364859"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2071913860" Id="3472729409"/>
-							<MediaRefs>
-								<MediaRef Id="28902410"/>
-								<MediaRef Id="38388676"/>
-								<MediaRef Id="53662448"/>
-								<MediaRef Id="74621406"/>
-								<MediaRef Id="140227896"/>
-								<MediaRef Id="161718497"/>
-								<MediaRef Id="189510420"/>
-								<MediaRef Id="259753147"/>
-								<MediaRef Id="404629888"/>
-								<MediaRef Id="410989016"/>
-								<MediaRef Id="512429253"/>
-								<MediaRef Id="847263843"/>
-								<MediaRef Id="994505982"/>
-								<MediaRef Id="1060220046"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2071913860" Id="3236973553"/>
-							<MediaRefs>
-								<MediaRef Id="207048404"/>
-								<MediaRef Id="448909528"/>
-								<MediaRef Id="647618796"/>
-								<MediaRef Id="664875806"/>
-								<MediaRef Id="983155238"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2071913860" Id="169923998" Default="true"/>
-							<MediaRefs>
-								<MediaRef Id="28902410"/>
-								<MediaRef Id="53662448"/>
-								<MediaRef Id="404629888"/>
-								<MediaRef Id="405521649"/>
-								<MediaRef Id="847263843"/>
-								<MediaRef Id="994505982"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2071913860" Id="2766995314"/>
-							<MediaRefs>
-								<MediaRef Id="31019644"/>
-								<MediaRef Id="200990497"/>
-								<MediaRef Id="257203075"/>
-								<MediaRef Id="516315720"/>
-								<MediaRef Id="598228170"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2071913860" Id="16724608"/>
-							<MediaRefs>
-								<MediaRef Id="57269178"/>
-								<MediaRef Id="121413627"/>
-								<MediaRef Id="310467878"/>
-								<MediaRef Id="507554249"/>
-								<MediaRef Id="654461019"/>
-								<MediaRef Id="882338007"/>
-								<MediaRef Id="1032316818"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2071913860" Id="553221778"/>
-							<MediaRefs>
-								<MediaRef Id="32544820"/>
-								<MediaRef Id="78299451"/>
-								<MediaRef Id="82960053"/>
-								<MediaRef Id="203339077"/>
-								<MediaRef Id="655743071"/>
-								<MediaRef Id="739785116"/>
-								<MediaRef Id="1058377727"/>
-							</MediaRefs>
-							<PluginRefs>
-								<ShareSets>
-									<PluginRef Id="3605142646"/>
-								</ShareSets>
-							</PluginRefs>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2071913860" Id="1848499500"/>
-							<MediaRefs>
-								<MediaRef Id="130447724"/>
-								<MediaRef Id="165151605"/>
-								<MediaRef Id="328056082"/>
-								<MediaRef Id="360818590"/>
-								<MediaRef Id="520767809"/>
-								<MediaRef Id="658849683"/>
-								<MediaRef Id="799779028"/>
-								<MediaRef Id="869301597"/>
-								<MediaRef Id="880900962"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2071913860" Id="3533229697"/>
-							<MediaRefs>
-								<MediaRef Id="48584085"/>
-								<MediaRef Id="303496290"/>
-								<MediaRef Id="358190365"/>
-								<MediaRef Id="441320094"/>
-								<MediaRef Id="487759781"/>
-								<MediaRef Id="581830692"/>
-								<MediaRef Id="640394969"/>
-								<MediaRef Id="647013207"/>
-								<MediaRef Id="659306671"/>
-								<MediaRef Id="668836424"/>
-								<MediaRef Id="699014779"/>
-								<MediaRef Id="763046548"/>
-								<MediaRef Id="869819059"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2071913860" Id="3656468158"/>
-							<MediaRefs>
-								<MediaRef Id="6407671"/>
-								<MediaRef Id="97882844"/>
-								<MediaRef Id="181035579"/>
-								<MediaRef Id="208254579"/>
-								<MediaRef Id="393838694"/>
-								<MediaRef Id="522583155"/>
-								<MediaRef Id="584363499"/>
-								<MediaRef Id="604652303"/>
-								<MediaRef Id="653886010"/>
-								<MediaRef Id="771702802"/>
-								<MediaRef Id="787012307"/>
-								<MediaRef Id="875760030"/>
-								<MediaRef Id="963337792"/>
-								<MediaRef Id="1026563754"/>
-								<MediaRef Id="1048032111"/>
-								<MediaRef Id="1052488000"/>
-								<MediaRef Id="1067936982"/>
-							</MediaRefs>
-						</SwitchContainer>
-					</SwitchContainers>
 				</Event>
 				<Event Id="2980418053" Name="JellyCollision" DurationType="OneShot" DurationMin="0.23542877" DurationMax="0.48860556">
 					<MediaRefs>
@@ -889,6 +736,7 @@
 						<Switch Id="553221778" Name="Triangle_SW"/>
 						<Switch Id="1227152183" Name="RealChicken_SW"/>
 						<Switch Id="1848499500" Name="Frog_SW"/>
+						<Switch Id="2526958944" Name="JugglingBall_SW"/>
 						<Switch Id="2766995314" Name="PaperPlane_SW"/>
 						<Switch Id="3236973553" Name="BowlingBall_SW"/>
 						<Switch Id="3472729409" Name="RubberChicken_SW"/>
@@ -905,5 +753,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{66A963CB-0BA1-A2D5-1CBA-6D69C67C0A0F}</FileHash>
+	<FileHash>{156C36B1-C8B6-74FD-F227-DBA5AAAC5E8F}</FileHash>
 </SoundBanksInfo>

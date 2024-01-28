@@ -24,6 +24,7 @@ Switch	ID	Name	Switch Group			Notes
 	553221778	Triangle_SW	Object_SwitchGroup			
 	1227152183	RealChicken_SW	Object_SwitchGroup			
 	1848499500	Frog_SW	Object_SwitchGroup			
+	2526958944	JugglingBall_SW	Object_SwitchGroup			
 	2766995314	PaperPlane_SW	Object_SwitchGroup			
 	3236973553	BowlingBall_SW	Object_SwitchGroup			
 	3472729409	RubberChicken_SW	Object_SwitchGroup			

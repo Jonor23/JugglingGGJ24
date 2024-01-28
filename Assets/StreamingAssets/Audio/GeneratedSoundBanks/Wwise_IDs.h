@@ -52,6 +52,7 @@ namespace AK
                 static const AkUniqueID BOWLINGBALL_SW = 3236973553U;
                 static const AkUniqueID FROG_SW = 1848499500U;
                 static const AkUniqueID JELLY_SW = 16724608U;
+                static const AkUniqueID JUGGLINGBALL_SW = 2526958944U;
                 static const AkUniqueID JUGGLINGPIN_SW = 169923998U;
                 static const AkUniqueID PAPERPLANE_SW = 2766995314U;
                 static const AkUniqueID REALCHICKEN_SW = 1227152183U;

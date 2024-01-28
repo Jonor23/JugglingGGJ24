@@ -15,6 +15,11 @@
 						<Action Name="" ID="{B6318A05-4D81-4E59-BFCF-8CFBCCC97B77}" ShortID="217532401">
 							<PropertyList>
 								<Property Name="Delay" Type="Real64" Value="0.1"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -169,6 +174,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="AMB_Switch" ID="{12380704-CD20-4FD1-9259-209D36CFDBC3}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="JugglingBallCollision" ID="{EA7C980D-3B5B-4D3B-B4D4-326E6FE192B0}">
+					<ChildrenList>
+						<Action Name="" ID="{FCBB14AD-654D-429F-B5EF-3D614DD75813}" ShortID="386065715">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JugglingBall" ID="{B9AE1FC1-C29C-4B55-B3CD-C9993367C728}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
