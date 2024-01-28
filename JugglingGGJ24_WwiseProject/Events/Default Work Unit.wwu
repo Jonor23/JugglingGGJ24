@@ -24,6 +24,105 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="BirdCollision" ID="{655DC364-9F18-496B-8718-DBB6DFD846FB}">
+					<ChildrenList>
+						<Action Name="" ID="{13C9BA6B-FBFC-4EBE-A1A4-EE374A8A3A91}" ShortID="991437945">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bird" ID="{FD29B570-EDF0-44FB-A48D-75EE4AE30894}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RubberChickenCollision" ID="{1AC545E1-087D-41FA-B18B-0D6054D63BD1}">
+					<ChildrenList>
+						<Action Name="" ID="{650F2E03-A561-44EE-93BA-8572ECCEA405}" ShortID="224221774">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RubberChicken" ID="{021E6FEF-03EA-4ED0-9CD7-2E5E8209FFE5}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RealChickenCollision" ID="{05DE1A08-9C72-4363-921D-061B8531EE15}">
+					<ChildrenList>
+						<Action Name="" ID="{1824B79F-AA4D-4DA7-8E00-325BEC1A8A05}" ShortID="832063669">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RealChicken" ID="{58C5082A-189C-4685-A0C1-20D1EB517458}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RocketCollision" ID="{8E7C2E1A-D6E9-45F7-94F2-488633E1B5EF}">
+					<ChildrenList>
+						<Action Name="" ID="{851BEDA9-C5DA-49AB-91F3-D496455250E6}" ShortID="700707389">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rocket" ID="{7AE1C3EC-5482-4DB8-96DA-5AECA7A0E54A}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PaperPlaneCollision" ID="{19951417-97E2-481E-ABA0-F210F917A165}">
+					<ChildrenList>
+						<Action Name="" ID="{7687D509-BB8E-434E-BECC-DB349AF7C022}" ShortID="707961524">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PaperPlane" ID="{DC040865-1849-4467-B48E-F99A8CC150ED}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="JugglingPinCollision" ID="{A010B47A-912F-42D1-9B2E-14615B3BDF8E}">
+					<ChildrenList>
+						<Action Name="" ID="{7F45EBE4-2ED6-46DD-8550-BB06DC6383E8}" ShortID="427551888">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JugglingPin" ID="{45398752-612E-4674-9B08-D4CD62957533}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TriangleCollision" ID="{5D35D958-9A2F-4E87-AFB2-98A9B794CF61}">
+					<ChildrenList>
+						<Action Name="" ID="{7C93ACCB-F6E7-4D6D-930E-7B0D35F364C1}" ShortID="590053245">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Triangle" ID="{48B8397D-1ACC-4A58-BE7E-4469168E062C}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="JellyCollision" ID="{6C561BB8-DA7E-4774-B6EA-CE00698B066C}">
+					<ChildrenList>
+						<Action Name="" ID="{51CC54CD-8A3C-4A29-863A-BD81C6E3913F}" ShortID="488844591">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jelly" ID="{BCF13E78-DCA3-4FE7-8E26-3653E5B53A7F}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FrogCollision" ID="{8DC4EB22-232A-41EB-AD01-C89A33BE94A0}">
+					<ChildrenList>
+						<Action Name="" ID="{524023CC-674B-4D81-9D03-DA0850BBDE9E}" ShortID="815617247">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Frog" ID="{92982BC0-EDD1-45D9-B81B-53777C75F403}" WorkUnitID="{3BB82E7D-2482-4DDE-ADE1-2DC7908B5285}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
