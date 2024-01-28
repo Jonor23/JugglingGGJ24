@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{C1641702-F78B-6799-BFE3-B5A890C75FEB}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1990128658" Name="Room_Medium" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="1572913279" Name="RoomVerb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1990128658"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="638808235" Name="AMB_Blend_RTPC"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="2071913860" Name="Object_SwitchGroup">
+					<Switches>
+						<Switch Id="16724608" Name="Jelly_SW"/>
+						<Switch Id="169923998" Name="JugglingPin_SW"/>
+						<Switch Id="553221778" Name="Triangle_SW"/>
+						<Switch Id="1227152183" Name="RealChicken_SW"/>
+						<Switch Id="1848499500" Name="Frog_SW"/>
+						<Switch Id="2766995314" Name="PaperPlane_SW"/>
+						<Switch Id="3236973553" Name="BowlingBall_SW"/>
+						<Switch Id="3472729409" Name="RubberChicken_SW"/>
+						<Switch Id="3533229697" Name="Bird_SW"/>
+						<Switch Id="3656468158" Name="Rocket_SW"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2502726051" Name="AMB_SwitchGroup">
+					<Switches>
+						<Switch Id="1293687882" Name="OutdoorScene_SW"/>
+						<Switch Id="1358710794" Name="Saloon_SW"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1712459862" Type="User" Language="SFX" Hash="{54896E51-0EFC-9CB0-AA75-A5BED5CAC1FF}">
+			<ShortName>Juggling_SoundBank</ShortName>
+			<Path>Juggling_SoundBank.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{63493A3A-87E5-C715-BFBD-A67D370D535E}</FileHash>
+</SoundBanksInfo>

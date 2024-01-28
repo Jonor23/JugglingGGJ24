@@ -118,6 +118,54 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
+		<SoundBank Id="278617630" Type="Event" Language="SFX" Hash="{83E6DE4A-FDD1-8F51-298D-10EFE1995870}">
+			<ShortName>Play_Ambience</ShortName>
+			<Path>Event/Play_Ambience.bnk</Path>
+			<Media>
+				<File Id="380911430" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AMB_TumbleweedWind_Loop.wav</ShortName>
+					<Path>Media/380911430.wem</Path>
+					<CachePath>SFX/AMB_TumbleweedWind_Loop_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="583963773" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AMB_Saloon_Loop.wav</ShortName>
+					<Path>Media/583963773.wem</Path>
+					<CachePath>SFX/AMB_Saloon_Loop_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="734337491" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AMB_OutdoorScene_Loop.wav</ShortName>
+					<Path>Media/734337491.wem</Path>
+					<CachePath>SFX/AMB_OutdoorScene_Loop_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="278617630" Name="Play_Ambience" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2502726051" Id="1293687882"/>
+							<MediaRefs>
+								<MediaRef Id="734337491"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2502726051" Id="1358710794" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="380911430"/>
+								<MediaRef Id="583963773"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2502726051" Name="AMB_SwitchGroup">
+					<Switches>
+						<Switch Id="1293687882" Name="OutdoorScene_SW"/>
+						<Switch Id="1358710794" Name="Saloon_SW"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
 		<SoundBank Id="375339906" Type="Event" Language="SFX" Hash="{B74BBC1A-0F1D-6C28-1731-B7CBFA64C2B9}">
 			<ShortName>UI_Interaction</ShortName>
 			<Path>Event/UI_Interaction.bnk</Path>
@@ -549,6 +597,10 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
+		<SoundBank Id="1712459862" Type="User" Language="SFX" Hash="{54896E51-0EFC-9CB0-AA75-A5BED5CAC1FF}">
+			<ShortName>Juggling_SoundBank</ShortName>
+			<Path>Juggling_SoundBank.bnk</Path>
+		</SoundBank>
 		<SoundBank Id="1944248036" Type="Event" Language="SFX" Hash="{B8DED802-2DD7-5BEC-B799-0459E8CB9162}">
 			<ShortName>BowlingBallCollision</ShortName>
 			<Path>Event/BowlingBallCollision.bnk</Path>
@@ -692,6 +744,13 @@
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2477713992" Type="Event" Language="SFX" Hash="{D48B7085-77C1-E74F-8EE8-830D8A3B4BCC}">
+			<ShortName>Stop_Ambience</ShortName>
+			<Path>Event/Stop_Ambience.bnk</Path>
+			<Events>
+				<Event Id="2477713992" Name="Stop_Ambience" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
 		</SoundBank>
 		<SoundBank Id="2980418053" Type="Event" Language="SFX" Hash="{A72A4E8C-74C4-CE8D-CCB4-BB2DAC676A1F}">
 			<ShortName>JellyCollision</ShortName>
@@ -1732,5 +1791,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7ECCB61B-FA95-0ACA-120B-9E8F7BF3DDC8}</FileHash>
+	<FileHash>{BD685F58-F596-F84A-77E4-AA3159909328}</FileHash>
 </SoundBanksInfo>
